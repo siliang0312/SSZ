@@ -1,0 +1,15 @@
+E:\clean architecture\SSZ\src\SSZ.UseCases\bin\Debug\net9.0\SSZ.UseCases.deps.json
+E:\clean architecture\SSZ\src\SSZ.UseCases\bin\Debug\net9.0\SSZ.UseCases.dll
+E:\clean architecture\SSZ\src\SSZ.UseCases\bin\Debug\net9.0\SSZ.UseCases.pdb
+E:\clean architecture\SSZ\src\SSZ.UseCases\bin\Debug\net9.0\SSZ.Core.dll
+E:\clean architecture\SSZ\src\SSZ.UseCases\bin\Debug\net9.0\SSZ.Core.pdb
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.csproj.AssemblyReference.cache
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.AssemblyInfoInputs.cache
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.AssemblyInfo.cs
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.csproj.CoreCompileInputs.cache
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseC.0AF73E4A.Up2Date
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.dll
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\refint\SSZ.UseCases.dll
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\SSZ.UseCases.pdb
+E:\clean architecture\SSZ\src\SSZ.UseCases\obj\Debug\net9.0\ref\SSZ.UseCases.dll

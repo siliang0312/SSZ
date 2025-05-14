@@ -1,0 +1,12 @@
+E:\clean architecture\SSZ\src\SSZ.Core\bin\Debug\net9.0\SSZ.Core.deps.json
+E:\clean architecture\SSZ\src\SSZ.Core\bin\Debug\net9.0\SSZ.Core.dll
+E:\clean architecture\SSZ\src\SSZ.Core\bin\Debug\net9.0\SSZ.Core.pdb
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.csproj.AssemblyReference.cache
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.AssemblyInfoInputs.cache
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.AssemblyInfo.cs
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.csproj.CoreCompileInputs.cache
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.dll
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\refint\SSZ.Core.dll
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\SSZ.Core.pdb
+E:\clean architecture\SSZ\src\SSZ.Core\obj\Debug\net9.0\ref\SSZ.Core.dll

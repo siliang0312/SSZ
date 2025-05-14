@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/SSZ.AspireHost/SSZ.AspireHost.csproj" />
+    <Project Path="src/SSZ.Core/SSZ.Core.csproj" />
+    <Project Path="src/SSZ.Infrastructure/SSZ.Infrastructure.csproj" />
+    <Project Path="src/SSZ.ServiceDefaults/SSZ.ServiceDefaults.csproj" />
+    <Project Path="src/SSZ.UseCases/SSZ.UseCases.csproj" />
+    <Project Path="src/SSZ.Web/SSZ.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SSZ.FunctionalTests/SSZ.FunctionalTests.csproj">
+      <BuildDependency Project="src/SSZ.Web/SSZ.Web.csproj" />
+    </Project>
+    <Project Path="tests/SSZ.IntegrationTests/SSZ.IntegrationTests.csproj">
+      <BuildDependency Project="src/SSZ.Infrastructure/SSZ.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/SSZ.UnitTests/SSZ.UnitTests.csproj" />
+  </Folder>
+</Solution>
