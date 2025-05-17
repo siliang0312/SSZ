@@ -106,5 +106,17 @@
             See: https://fast-endpoints.com/docs/validation
             </summary>
         </member>
+        <member name="T:SSZ.Web.Equipments.List">
+            <summary>
+            Equipment
+            </summary>
+            <param name="_mediator"></param>
+        </member>
+        <member name="M:SSZ.Web.Equipments.List.#ctor(MediatR.IMediator)">
+            <summary>
+            Equipment
+            </summary>
+            <param name="_mediator"></param>
+        </member>
     </members>
 </doc>

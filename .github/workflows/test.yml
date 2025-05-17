@@ -21,27 +21,39 @@ jobs:
           dotnet-version: 9.0.x
           
       - name: 还原依赖
-        run: dotnet restore ./src/SSZ.Web/SSZ.Web.csproj
+        run: dotnet restore ./src/SSZ.Web/SSZ.Webå.csproj
         
       - name: 构建项目
         run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
 
       - name: 运行测试并收集覆盖率
         run: |
-          # 运行测试并生成覆盖率报告（默认格式为 cobertura）
+          # 多项目并行测试（根据实际情况选择）
           dotnet test \
             --no-restore \
             --verbosity normal \
             --collect:"Code Coverage" \
             --results-directory ./tests/TestResults \
-            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+            --logger trx \
+            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura \
+            ./tests/SSZ.UnitTests/SSZ.UnitTests.csproj \
+            ./tests/SSZ.IntegrationTests/SSZ.IntegrationTests.csproj \
+            ./tests/SSZ.FunctionalTests/SSZ.FunctionalTests.csproj
 
-      - name: 上传覆盖率报告
-        uses: actions/upload-artifact@v4
+              
+      - name: 合并覆盖率报告
+        run: |
+          dotnet tool install -g dotnet-reportgenerator-globaltool
+          reportgenerator \
+            -reports:tests/TestResults/​**​/coverage.cobertura.xml \
+            -targetdir:tests/TestResults/merged-coverage \
+            -reporttypes:HtmlInline;Cobertura 
+
+      - name: 上传测试结果
+        uses: actions/upload-artifact@v3
         with:
-          name: coverage-report
-          path: |
-            ./TestResults/​**​/coverage.cobertura.xml
+          name: test-results
+          path: tests/TestResults
 
       
         

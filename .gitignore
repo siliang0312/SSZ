@@ -1,47 +1,54 @@
-SSZ.Api/bin
-SSZ.Api/obj
-SSZ.Application/bin
-SSZ.Application/obj
-SSZ.Domain/bin
-SSZ.Domain/obj
-SSZ.Infrastructure/bin
-SSZ.Infrastructure/obj
-UnitTest/obj
-test/bin
-test/obj
-# 默认忽略的文件
-/shelf/
-/workspace.xml
-# Rider 忽略的文件
-/contentModel.xml
-/projectSettingsUpdater.xml
-/modules.xml
-/.idea.SSZ.iml
-# 基于编辑器的 HTTP 客户端请求
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Exclude bin and obj directories
-bin/
-obj/
-# Exclude NuGet packages
-*.nuget/
-*/project.lock.json
-# Exclude sensitive files
-appsettings.json
-appsettings.Development.json
-*.pfx
-# Exclude log files
-*.log
-# Exclude temporary and cache files
-*.tmp
-*.cache
-# Visual Studio Code
-.vscode/
-
-# IntelliJ
-.idea/
-
-# Visual Studio
+# 通用开发环境文件
+/.vs/
+/.vscode/
+/.idea/
+*.user
 *.suo
+*.DotSettings.user
+
+# 编译输出
+​**​/bin/
+​**​/obj/
+*.dll
+*.pdb
+*.exe
+
+# 依赖目录
+​**​/packages/
+​**​/.npm/
+​**​/.nuget/
+.nuget/
+
+# 日志与缓存
+*.log
+*.cache
+*.swp
+.DS_Store
+
+# 测试相关
+tests/TestResults/   # 保留目录结构但忽略内容
+*.coverage
+*.trx
+
+# 配置文件覆盖
+appsettings.Development.json
+appsettings.Local.json
+
+# 特殊文件忽略
+!/.github/workflows/test.yml  # 明确保留你的CI配置文件
+!/.editorconfig               # 保留代码风格配置
+!/CODE_OF_CONDUCT.md          # 保留行为准则文件
+
+# 自动生成文档
+/docs/api/
+/docs/_site/
+
+# 容器相关
+docker-compose.override.yml
+​**​/.dockerignore
+​**​/Dockerfile.local
+
+# 前端构建产物（根据Web项目需要）
+/wwwroot/
+/dist/
+/node_modules/

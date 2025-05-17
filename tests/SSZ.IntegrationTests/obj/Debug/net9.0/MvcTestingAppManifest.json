@@ -1,6 +1,6 @@
 {
-  "SSZ.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.Core",
-  "SSZ.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure",
-  "SSZ.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\tests\\SSZ.UnitTests",
-  "SSZ.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases"
+  "SSZ.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/0312ssz\/Documents\/dddandevent\/src\/SSZ.Core",
+  "SSZ.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/0312ssz\/Documents\/dddandevent\/src\/SSZ.Infrastructure",
+  "SSZ.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/0312ssz\/Documents\/dddandevent\/tests\/SSZ.UnitTests",
+  "SSZ.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/0312ssz\/Documents\/dddandevent\/src\/SSZ.UseCases"
 }

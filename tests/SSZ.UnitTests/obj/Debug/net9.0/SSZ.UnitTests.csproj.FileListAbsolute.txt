@@ -1,329 +1,658 @@
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_SSZ.UnitTests
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\CoverletSourceRootsMapping_SSZ.UnitTests
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\testhost.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.abstractions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.7z
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.bz2
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.gz
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.tar
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.xz
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\archive\empty.zip
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\document\empty.docx
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\document\empty.odt
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\document\empty.pdf
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\document\empty.rtf
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.avif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.bmp
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.dds
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.dib
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.emf
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.exif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.gif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.heic
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.heif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.ico
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.j2c
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jfif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jp2
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jpc
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jpe
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jpg
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.jxr
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.pbm
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.pcx
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.pgm
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.png
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.ppm
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.rle
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.tga
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.tif
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.wdp
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.webp
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\image\empty.wmp
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\sheet\empty.ods
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\sheet\empty.xlsx
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\slide\empty.odp
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles\slide\empty.pptx
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\testhost.exe
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.runner.json
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UnitTests.deps.json
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UnitTests.runtimeconfig.json
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UnitTests.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UnitTests.pdb
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\Microsoft.CSharp.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\Microsoft.VisualBasic.Core.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\Microsoft.VisualBasic.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\Microsoft.Win32.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\Microsoft.Win32.Registry.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\mscorlib.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\netstandard.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.AppContext.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Buffers.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Collections.Concurrent.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Collections.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Collections.Immutable.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Collections.NonGeneric.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Collections.Specialized.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.Annotations.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.DataAnnotations.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.EventBasedAsync.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ComponentModel.TypeConverter.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Configuration.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Console.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Core.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Data.Common.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Data.DataSetExtensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Data.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.Contracts.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.Debug.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.DiagnosticSource.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.FileVersionInfo.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.Process.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.StackTrace.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.TextWriterTraceListener.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.Tools.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.TraceSource.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Diagnostics.Tracing.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Drawing.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Drawing.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Dynamic.Runtime.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Formats.Asn1.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Formats.Tar.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Globalization.Calendars.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Globalization.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Globalization.Extensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Compression.Brotli.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Compression.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Compression.FileSystem.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Compression.ZipFile.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.FileSystem.AccessControl.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.FileSystem.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.FileSystem.DriveInfo.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.FileSystem.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.FileSystem.Watcher.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.IsolatedStorage.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.MemoryMappedFiles.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Pipelines.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Pipes.AccessControl.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.Pipes.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.IO.UnmanagedMemoryStream.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Linq.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Linq.Expressions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Linq.Parallel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Linq.Queryable.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Memory.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Http.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Http.Json.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.HttpListener.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Mail.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.NameResolution.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.NetworkInformation.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Ping.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Quic.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Requests.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Security.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.ServicePoint.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.Sockets.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.WebClient.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.WebHeaderCollection.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.WebProxy.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.WebSockets.Client.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Net.WebSockets.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Numerics.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Numerics.Vectors.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ObjectModel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.DispatchProxy.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Emit.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Emit.ILGeneration.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Emit.Lightweight.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Extensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Metadata.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Reflection.TypeExtensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Resources.Reader.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Resources.ResourceManager.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Resources.Writer.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.CompilerServices.Unsafe.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.CompilerServices.VisualC.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Extensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Handles.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.InteropServices.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.InteropServices.JavaScript.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Intrinsics.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Loader.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Numerics.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Serialization.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Serialization.Formatters.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Serialization.Json.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Serialization.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Runtime.Serialization.Xml.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.AccessControl.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Claims.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.Algorithms.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.Cng.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.Csp.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.Encoding.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.OpenSsl.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.Primitives.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Cryptography.X509Certificates.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Principal.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.Principal.Windows.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Security.SecureString.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ServiceModel.Web.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ServiceProcess.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.Encoding.CodePages.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.Encoding.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.Encoding.Extensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.Encodings.Web.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.Json.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Text.RegularExpressions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Channels.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Overlapped.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Tasks.Dataflow.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Tasks.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Tasks.Extensions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Tasks.Parallel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Thread.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.ThreadPool.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Threading.Timer.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Transactions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Transactions.Local.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.ValueTuple.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Web.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Web.HttpUtility.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Windows.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.Linq.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.ReaderWriter.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.Serialization.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.XDocument.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.XmlDocument.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.XmlSerializer.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.XPath.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\System.Xml.XPath.XDocument.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\refs\WindowsBase.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Ardalis.GuardClauses.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Ardalis.Result.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Ardalis.SharedKernel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Ardalis.SmartEnum.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Ardalis.Specification.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Castle.Core.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\DiffEngine.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\EmptyFiles.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\MediatR.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\MediatR.Contracts.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.CommunicationUtilities.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Newtonsoft.Json.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\NSubstitute.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\Shouldly.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\System.CodeDom.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\System.Management.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.assert.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.core.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\xunit.execution.dotnet.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Management.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.Core.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UseCases.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.Core.pdb
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\bin\Debug\net9.0\SSZ.UseCases.pdb
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.csproj.AssemblyReference.cache
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.AssemblyInfoInputs.cache
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.AssemblyInfo.cs
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.csproj.CoreCompileInputs.cache
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.Unit.84AEA3C6.Up2Date
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\refint\SSZ.UnitTests.dll
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.pdb
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\SSZ.UnitTests.genruntimeconfig.cache
-E:\clean architecture\SSZ\tests\SSZ.UnitTests\obj\Debug\net9.0\ref\SSZ.UnitTests.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_SSZ.UnitTests
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/CoverletSourceRootsMapping_SSZ.UnitTests
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/testhost.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.abstractions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.7z
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.bz2
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.gz
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.tar
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.xz
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.zip
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.docx
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.odt
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.pdf
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.rtf
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.avif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.bmp
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.dds
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.dib
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.emf
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.exif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.gif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.heic
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.heif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.ico
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.j2c
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jfif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jp2
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpc
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpe
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpg
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jxr
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pbm
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pcx
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pgm
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.png
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.ppm
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.rle
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.tga
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.tif
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.wdp
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.webp
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.wmp
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/sheet/empty.ods
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/sheet/empty.xlsx
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/slide/empty.odp
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/slide/empty.pptx
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/testhost.exe
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.runner.json
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.deps.json
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.runtimeconfig.json
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.pdb
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.CSharp.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.Core.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.Win32.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.Win32.Registry.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/mscorlib.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/netstandard.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.AppContext.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Buffers.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Concurrent.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Immutable.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.NonGeneric.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Specialized.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.Annotations.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.DataAnnotations.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.EventBasedAsync.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.TypeConverter.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Configuration.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Console.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Core.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.Common.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.DataSetExtensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Contracts.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Debug.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.DiagnosticSource.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.FileVersionInfo.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Process.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.StackTrace.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.TextWriterTraceListener.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Tools.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.TraceSource.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Tracing.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Drawing.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Drawing.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Dynamic.Runtime.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Formats.Asn1.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Formats.Tar.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.Calendars.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.Extensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.Brotli.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.FileSystem.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.ZipFile.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.AccessControl.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.DriveInfo.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.Watcher.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.IsolatedStorage.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.MemoryMappedFiles.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipelines.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipes.AccessControl.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipes.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.UnmanagedMemoryStream.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Expressions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Parallel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Queryable.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Memory.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Http.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Http.Json.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.HttpListener.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Mail.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.NameResolution.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.NetworkInformation.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Ping.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Quic.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Requests.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Security.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.ServicePoint.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Sockets.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebClient.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebHeaderCollection.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebProxy.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebSockets.Client.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebSockets.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Numerics.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Numerics.Vectors.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ObjectModel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.DispatchProxy.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.ILGeneration.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.Lightweight.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Extensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Metadata.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.TypeExtensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.Reader.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.ResourceManager.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.Writer.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.Unsafe.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.VisualC.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Extensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Handles.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.JavaScript.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.RuntimeInformation.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Intrinsics.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Loader.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Numerics.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Formatters.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Json.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Xml.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.AccessControl.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Claims.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Algorithms.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Cng.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Csp.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Encoding.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.OpenSsl.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Primitives.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.X509Certificates.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Principal.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Principal.Windows.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.SecureString.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ServiceModel.Web.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ServiceProcess.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.CodePages.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.Extensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encodings.Web.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Json.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.RegularExpressions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Channels.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Overlapped.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Dataflow.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Extensions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Parallel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Thread.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.ThreadPool.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Timer.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Transactions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Transactions.Local.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ValueTuple.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Web.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Web.HttpUtility.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Windows.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.Linq.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.ReaderWriter.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.Serialization.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XDocument.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XmlDocument.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XmlSerializer.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XPath.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XPath.XDocument.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/WindowsBase.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.GuardClauses.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.Result.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.SharedKernel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.SmartEnum.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.Specification.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Castle.Core.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/DiffEngine.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/MediatR.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/MediatR.Contracts.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.Utilities.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Newtonsoft.Json.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/NSubstitute.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/Shouldly.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/System.CodeDom.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/System.Diagnostics.EventLog.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/System.Management.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.assert.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.core.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.execution.dotnet.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Management.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.Core.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UseCases.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.Core.pdb
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UseCases.pdb
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.csproj.AssemblyReference.cache
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.AssemblyInfoInputs.cache
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.AssemblyInfo.cs
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.csproj.CoreCompileInputs.cache
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.Unit.84AEA3C6.Up2Date
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/refint/SSZ.UnitTests.dll
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.pdb
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.genruntimeconfig.cache
+E:/clean architecture/SSZ/tests/SSZ.UnitTests/obj/Debug/net9.0/ref/SSZ.UnitTests.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_SSZ.UnitTests
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/CoverletSourceRootsMapping_SSZ.UnitTests
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.7z
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.bz2
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.gz
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.tar
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.xz
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/archive/empty.zip
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.docx
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.odt
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.pdf
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/document/empty.rtf
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.avif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.bmp
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.dds
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.dib
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.emf
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.exif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.gif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.heic
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.heif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.ico
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.j2c
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jfif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jp2
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpc
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpe
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jpg
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.jxr
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pbm
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pcx
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.pgm
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.png
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.ppm
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.rle
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.tga
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.tif
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.wdp
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.webp
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/image/empty.wmp
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/sheet/empty.ods
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/sheet/empty.xlsx
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/slide/empty.odp
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles/slide/empty.pptx
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.abstractions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.runner.json
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.deps.json
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.runtimeconfig.json
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UnitTests.pdb
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.CSharp.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.Core.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.Win32.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/Microsoft.Win32.Registry.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/mscorlib.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/netstandard.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.AppContext.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Buffers.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Concurrent.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Immutable.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.NonGeneric.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Collections.Specialized.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.Annotations.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.DataAnnotations.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.EventBasedAsync.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ComponentModel.TypeConverter.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Configuration.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Console.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Core.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.Common.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.DataSetExtensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Data.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Contracts.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Debug.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.DiagnosticSource.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.FileVersionInfo.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Process.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.StackTrace.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.TextWriterTraceListener.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Tools.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.TraceSource.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Diagnostics.Tracing.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Drawing.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Drawing.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Dynamic.Runtime.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Formats.Asn1.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Formats.Tar.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.Calendars.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Globalization.Extensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.Brotli.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.FileSystem.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Compression.ZipFile.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.AccessControl.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.DriveInfo.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.FileSystem.Watcher.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.IsolatedStorage.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.MemoryMappedFiles.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipelines.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipes.AccessControl.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.Pipes.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.IO.UnmanagedMemoryStream.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Expressions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Parallel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Linq.Queryable.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Memory.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Http.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Http.Json.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.HttpListener.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Mail.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.NameResolution.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.NetworkInformation.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Ping.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Quic.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Requests.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Security.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.ServicePoint.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.Sockets.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebClient.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebHeaderCollection.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebProxy.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebSockets.Client.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Net.WebSockets.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Numerics.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Numerics.Vectors.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ObjectModel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.DispatchProxy.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.ILGeneration.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Emit.Lightweight.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Extensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Metadata.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Reflection.TypeExtensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.Reader.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.ResourceManager.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Resources.Writer.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.Unsafe.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.VisualC.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Extensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Handles.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.JavaScript.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Intrinsics.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Loader.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Numerics.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Formatters.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Json.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Xml.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.AccessControl.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Claims.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Algorithms.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Cng.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Csp.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Encoding.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.OpenSsl.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.Primitives.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Cryptography.X509Certificates.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Principal.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.Principal.Windows.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Security.SecureString.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ServiceModel.Web.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ServiceProcess.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.CodePages.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encoding.Extensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Encodings.Web.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.Json.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Text.RegularExpressions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Channels.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Overlapped.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Dataflow.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Extensions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Tasks.Parallel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Thread.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.ThreadPool.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Threading.Timer.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Transactions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Transactions.Local.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.ValueTuple.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Web.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Web.HttpUtility.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Windows.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.Linq.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.ReaderWriter.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.Serialization.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XDocument.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XmlDocument.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XmlSerializer.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XPath.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/System.Xml.XPath.XDocument.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/refs/WindowsBase.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.GuardClauses.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.Result.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.SharedKernel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.SmartEnum.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Ardalis.Specification.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Castle.Core.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/DiffEngine.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/EmptyFiles.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/MediatR.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/MediatR.Contracts.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.TestPlatform.Utilities.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/testhost.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/NSubstitute.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/Shouldly.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/System.CodeDom.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/System.Diagnostics.EventLog.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/System.Management.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.assert.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.core.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/xunit.execution.dotnet.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Management.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.Core.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UseCases.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.Core.pdb
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/bin/Debug/net9.0/SSZ.UseCases.pdb
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.csproj.AssemblyReference.cache
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.AssemblyInfoInputs.cache
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.AssemblyInfo.cs
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.csproj.CoreCompileInputs.cache
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.sourcelink.json
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.Unit.84AEA3C6.Up2Date
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/refint/SSZ.UnitTests.dll
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.pdb
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/SSZ.UnitTests.genruntimeconfig.cache
+/Users/0312ssz/Documents/dddandevent/tests/SSZ.UnitTests/obj/Debug/net9.0/ref/SSZ.UnitTests.dll

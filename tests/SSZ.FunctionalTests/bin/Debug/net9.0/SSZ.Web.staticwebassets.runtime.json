@@ -1,1 +1,1 @@
-{"ContentRoots":["E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\"],"Root":{"Children":{".gitkeep":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":".gitkeep"},"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
+{"ContentRoots":["/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/"],"Root":{"Children":{".gitkeep":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":".gitkeep"},"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
