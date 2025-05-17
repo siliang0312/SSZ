@@ -21,7 +21,7 @@ jobs:
           dotnet-version: 9.0.x
           
       - name: 还原依赖
-        run: dotnet restore ./src/SSZ.Web/SSZ.Webå.csproj
+        run: dotnet restore ./src/SSZ.Web/SSZ.Web.csproj
         
       - name: 构建项目
         run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
