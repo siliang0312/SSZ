@@ -27,22 +27,19 @@ jobs:
       - name: 构建项目
         run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
 
-      - name: 运行测试并收集覆盖率
+      - name: 运行所有测试并收集覆盖率
         run: |
-          for proj in \
-            ./tests/SSZ.UnitTests/SSZ.UnitTests.csproj \
-            ./tests/SSZ.IntegrationTests/SSZ.IntegrationTests.csproj \
-            ./tests/SSZ.FunctionalTests/SSZ.FunctionalTests.csproj
-          do
-            dotnet test \
+          for proj in $(find ./tests -name "*.csproj"); do
+            echo "📦 测试项目: $proj"
+            dotnet test "$proj" \
               --no-restore \
               --verbosity normal \
               --collect:"Code Coverage" \
               --results-directory ./tests/TestResults \
               --logger trx \
-              -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura \
-              $proj
+              -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
           done
+      
       
       
 
