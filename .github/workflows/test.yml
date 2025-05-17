@@ -34,11 +34,12 @@ jobs:
             dotnet test "$proj" \
               --no-restore \
               --verbosity normal \
-              --collect:"Code Coverage" \
-              --results-directory ./tests/TestResults \
-              --logger trx \
-              -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+              /p:CollectCoverage=true \
+              /p:CoverletOutputFormat=cobertura \
+              /p:CoverletOutput=./tests/TestResults/$(basename "$proj" .csproj).xml \
+              --logger "trx;LogFileName=$(basename "$proj" .csproj).trx"
           done
+
       
       
       
