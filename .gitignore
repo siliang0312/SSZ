@@ -1,23 +1,22 @@
 # 通用开发环境文件
-/.vs/
-/.vscode/
-/.idea/
+.vs/
+.vscode/
+.idea/
 *.user
 *.suo
 *.DotSettings.user
 
 # 编译输出
-*/bin/
-*/obj/
+**/bin/
+**/obj/
 *.dll
 *.pdb
 *.exe
 
 # 依赖目录
-*/packages/
-*/.npm/
-*/.nuget/
-.nuget/
+**/packages/
+**/.npm/
+**/.nuget/
 
 # 日志与缓存
 *.log
@@ -26,7 +25,8 @@
 .DS_Store
 
 # 测试相关
-tests/TestResults/   # 保留目录结构但忽略内容
+/tests/TestResults/*
+!/tests/TestResults/.gitkeep
 *.coverage
 *.trx
 
@@ -34,21 +34,21 @@ tests/TestResults/   # 保留目录结构但忽略内容
 appsettings.Development.json
 appsettings.Local.json
 
-# 特殊文件忽略
-!/.github/workflows/test.yml  # 明确保留你的CI配置文件
-!/.editorconfig               # 保留代码风格配置
-!/CODE_OF_CONDUCT.md          # 保留行为准则文件
+# 特殊文件保留
+!/.github/workflows/test.yml
+!/.editorconfig
+!/CODE_OF_CONDUCT.md
 
 # 自动生成文档
-/docs/api/
-/docs/_site/
+**/docs/api/
+**/docs/_site/
 
 # 容器相关
 docker-compose.override.yml
-*/.dockerignore
-*/Dockerfile.local
+**/.dockerignore
+**/Dockerfile.local
 
-# 前端构建产物（根据Web项目需要）
+# 前端构建产物
 /wwwroot/
 /dist/
 /node_modules/
