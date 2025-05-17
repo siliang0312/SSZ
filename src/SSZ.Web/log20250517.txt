@@ -35,3 +35,15 @@ SELECT EXISTS (
 2025-05-17 18:38:33.752 +08:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/favicon-32x32.png - 200 628 image/png 0.3547ms
 2025-05-17 18:38:33.948 +08:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 216.0547ms
 2025-05-17 18:38:43.675 +08:00 [INF] Application is shutting down...
+2025-05-17 19:42:23.133 +08:00 [INF] Registered 6 endpoints in 152 milliseconds.
+2025-05-17 19:42:23.603 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 19:42:23.811 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 19:42:23.931 +08:00 [INF] Now listening on: https://localhost:57679
+2025-05-17 19:42:23.931 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-17 19:42:23.931 +08:00 [INF] Hosting environment: Development
+2025-05-17 19:42:23.931 +08:00 [INF] Content root path: /Users/0312ssz/Documents/dddandevent/src/SSZ.Web
+2025-05-17 19:42:46.014 +08:00 [INF] Application is shutting down...

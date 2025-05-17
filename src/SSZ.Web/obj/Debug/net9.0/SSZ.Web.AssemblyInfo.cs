@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSZ.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+271990d85c1785a25dd9fe8c8c5fede702d740d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09e3f61cc2b4e300ce71c07646a680cdeef98fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSZ.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSZ.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

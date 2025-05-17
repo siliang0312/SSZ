@@ -7,16 +7,16 @@
 *.DotSettings.user
 
 # 编译输出
-**/bin/
-**/obj/
+*/bin/
+*/obj/
 *.dll
 *.pdb
 *.exe
 
 # 依赖目录
-**/packages/
-**/.npm/
-**/.nuget/
+*/packages/
+*/.npm/
+*/.nuget/
 .nuget/
 
 # 日志与缓存
@@ -45,8 +45,8 @@ appsettings.Local.json
 
 # 容器相关
 docker-compose.override.yml
-**/.dockerignore
-**/Dockerfile.local
+*/.dockerignore
+*/Dockerfile.local
 
 # 前端构建产物（根据Web项目需要）
 /wwwroot/
