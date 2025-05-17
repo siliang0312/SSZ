@@ -381,34 +381,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\26291\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/0312ssz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj",
+      "projectUniqueName": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj",
       "projectName": "SSZ.Core",
-      "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj",
-      "packagesPath": "C:\\Users\\26291\\.nuget\\packages\\",
-      "outputPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\obj\\",
+      "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj",
+      "packagesPath": "/Users/0312ssz/.nuget/packages/",
+      "outputPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "E:\\clean architecture\\SSZ\\NuGet.Config",
-        "C:\\Users\\26291\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/0312ssz/Documents/dddandevent/NuGet.Config",
+        "/Users/0312ssz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "c:\\LocalNuget": {},
+        "/Users/0312ssz/Documents/dddandevent/c:\\LocalNuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -426,9 +420,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -526,7 +519,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

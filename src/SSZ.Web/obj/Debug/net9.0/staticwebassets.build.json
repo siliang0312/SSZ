@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C9l5nLu8q6lAKjLXhctKJiG6v2D0y98O7tQ5ExcsAR4=",
+  "Hash": "a/sAJyIdWHdaIyjs0HeHM3U1TVawcn8WQgTOMNFQ/j0=",
   "Source": "SSZ.Web",
   "BasePath": "_content/SSZ.Web",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "SSZ.Web\\wwwroot",
+      "Name": "SSZ.Web/wwwroot",
       "Source": "SSZ.Web",
-      "ContentRoot": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\",
+      "ContentRoot": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/",
       "BasePath": "_content/SSZ.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\.gitkeep",
+      "Identity": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/.gitkeep",
       "SourceId": "SSZ.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\",
+      "ContentRoot": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/",
       "BasePath": "_content/SSZ.Web",
       "RelativePath": "#[.{fingerprint}]?.gitkeep",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\.gitkeep"
+      "OriginalItemSpec": "wwwroot/.gitkeep"
     }
   ],
   "Endpoints": [
     {
       "Route": ".5ipweew5fc.gitkeep",
-      "AssetFile": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\.gitkeep",
+      "AssetFile": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 02:15:23 GMT"
+          "Value": "Sat, 17 May 2025 09:45:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86,7 +86,7 @@
     },
     {
       "Route": ".gitkeep",
-      "AssetFile": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\wwwroot\\.gitkeep",
+      "AssetFile": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/wwwroot/.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -107,7 +107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 02:15:23 GMT"
+          "Value": "Sat, 17 May 2025 09:45:43 GMT"
         },
         {
           "Name": "Cache-Control",

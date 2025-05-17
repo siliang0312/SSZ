@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "bBEYqKQrEV8=",
+  "dgSpecHash": "kbWIWojFaYw=",
   "success": true,
-  "projectFilePath": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj",
+  "projectFilePath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\26291\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\ardalis.result\\10.1.0\\ardalis.result.10.1.0.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\ardalis.sharedkernel\\2.1.1\\ardalis.sharedkernel.2.1.1.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\ardalis.smartenum\\8.2.0\\ardalis.smartenum.8.2.0.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
-    "C:\\Users\\26291\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512"
+    "/Users/0312ssz/.nuget/packages/ardalis.guardclauses/5.0.0/ardalis.guardclauses.5.0.0.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/ardalis.result/10.1.0/ardalis.result.10.1.0.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/ardalis.sharedkernel/2.1.1/ardalis.sharedkernel.2.1.1.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/ardalis.smartenum/8.2.0/ardalis.smartenum.8.2.0.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/ardalis.specification/8.0.0/ardalis.specification.8.0.0.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/0312ssz/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

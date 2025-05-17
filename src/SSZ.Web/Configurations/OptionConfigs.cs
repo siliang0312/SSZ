@@ -14,7 +14,7 @@ public static class OptionConfigs
     // Configure Web Behavior
     .Configure<CookiePolicyOptions>(options =>
     {
-      options.CheckConsentNeeded = context => true;
+      options.CheckConsentNeeded =context=>  true;
       options.MinimumSameSitePolicy = SameSiteMode.None;
     });
 

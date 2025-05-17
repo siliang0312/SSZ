@@ -1,34 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\SSZ.Web.csproj": {}
+    "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/SSZ.Web.csproj": {}
   },
   "projects": {
-    "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj": {
+    "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj",
+        "projectUniqueName": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj",
         "projectName": "SSZ.Core",
-        "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj",
-        "packagesPath": "C:\\Users\\26291\\.nuget\\packages\\",
-        "outputPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\obj\\",
+        "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj",
+        "packagesPath": "/Users/0312ssz/.nuget/packages/",
+        "outputPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "E:\\clean architecture\\SSZ\\NuGet.Config",
-          "C:\\Users\\26291\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/0312ssz/Documents/dddandevent/NuGet.Config",
+          "/Users/0312ssz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "c:\\LocalNuget": {},
+          "/Users/0312ssz/Documents/dddandevent/c:\\LocalNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,9 +41,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -146,46 +140,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\SSZ.Infrastructure.csproj": {
+    "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/SSZ.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\SSZ.Infrastructure.csproj",
+        "projectUniqueName": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/SSZ.Infrastructure.csproj",
         "projectName": "SSZ.Infrastructure",
-        "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\SSZ.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\26291\\.nuget\\packages\\",
-        "outputPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\obj\\",
+        "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/SSZ.Infrastructure.csproj",
+        "packagesPath": "/Users/0312ssz/.nuget/packages/",
+        "outputPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "E:\\clean architecture\\SSZ\\NuGet.Config",
-          "C:\\Users\\26291\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/0312ssz/Documents/dddandevent/NuGet.Config",
+          "/Users/0312ssz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "c:\\LocalNuget": {},
+          "/Users/0312ssz/Documents/dddandevent/c:\\LocalNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj": {
-                "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj"
+              "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj": {
+                "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj"
               },
-              "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj": {
-                "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj"
+              "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj": {
+                "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj"
               }
             }
           }
@@ -199,9 +188,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -330,43 +318,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj": {
+    "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj",
+        "projectUniqueName": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj",
         "projectName": "SSZ.UseCases",
-        "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj",
-        "packagesPath": "C:\\Users\\26291\\.nuget\\packages\\",
-        "outputPath": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\obj\\",
+        "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj",
+        "packagesPath": "/Users/0312ssz/.nuget/packages/",
+        "outputPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "E:\\clean architecture\\SSZ\\NuGet.Config",
-          "C:\\Users\\26291\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/0312ssz/Documents/dddandevent/NuGet.Config",
+          "/Users/0312ssz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "c:\\LocalNuget": {},
+          "/Users/0312ssz/Documents/dddandevent/c:\\LocalNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj": {
-                "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Core\\SSZ.Core.csproj"
+              "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj": {
+                "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Core/SSZ.Core.csproj"
               }
             }
           }
@@ -380,9 +363,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -455,46 +437,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\SSZ.Web.csproj": {
+    "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/SSZ.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\SSZ.Web.csproj",
+        "projectUniqueName": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/SSZ.Web.csproj",
         "projectName": "SSZ.Web",
-        "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\SSZ.Web.csproj",
-        "packagesPath": "C:\\Users\\26291\\.nuget\\packages\\",
-        "outputPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Web\\obj\\",
+        "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/SSZ.Web.csproj",
+        "packagesPath": "/Users/0312ssz/.nuget/packages/",
+        "outputPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Web/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "E:\\clean architecture\\SSZ\\NuGet.Config",
-          "C:\\Users\\26291\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/0312ssz/Documents/dddandevent/NuGet.Config",
+          "/Users/0312ssz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "c:\\LocalNuget": {},
+          "/Users/0312ssz/Documents/dddandevent/c:\\LocalNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\SSZ.Infrastructure.csproj": {
-                "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure\\SSZ.Infrastructure.csproj"
+              "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/SSZ.Infrastructure.csproj": {
+                "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/SSZ.Infrastructure.csproj"
               },
-              "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj": {
-                "projectPath": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases\\SSZ.UseCases.csproj"
+              "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj": {
+                "projectPath": "/Users/0312ssz/Documents/dddandevent/src/SSZ.UseCases/SSZ.UseCases.csproj"
               }
             }
           }
@@ -508,9 +485,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -618,7 +594,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

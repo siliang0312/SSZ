@@ -1,0 +1,47 @@
+SSZ.Api/bin
+SSZ.Api/obj
+SSZ.Application/bin
+SSZ.Application/obj
+SSZ.Domain/bin
+SSZ.Domain/obj
+SSZ.Infrastructure/bin
+SSZ.Infrastructure/obj
+UnitTest/obj
+test/bin
+test/obj
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# Rider 忽略的文件
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.SSZ.iml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Exclude bin and obj directories
+bin/
+obj/
+# Exclude NuGet packages
+*.nuget/
+*/project.lock.json
+# Exclude sensitive files
+appsettings.json
+appsettings.Development.json
+*.pfx
+# Exclude log files
+*.log
+# Exclude temporary and cache files
+*.tmp
+*.cache
+# Visual Studio Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Visual Studio
+*.suo

@@ -19,15 +19,15 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\26291\.nuget\packages\ardalis.sharedkernel\2.1.1\lib\net8.0\Ardalis.SharedKernel.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\26291\AppData\Local\JetBrains\Rider2025.1\resharper-host\temp\Rider\vAny\CoverageData\_SSZ.-873928927\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7bbe3ad_002D22ab_002D4dac_002D9b34_002D793882b18159/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReturnsSuccessGivenValidName" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::1DC7F5A0-DDF7-4975-84EB-05F4FC1B6AB5::net9.0::SSZ.UnitTests.UseCases.Contributors.CreateContributorHandlerHandle.ReturnsSuccessGivenValidName&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryAdd&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryDelete&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryUpdate&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorGetById&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorList&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7bbe3ad_002D22ab_002D4dac_002D9b34_002D793882b18159/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReturnsSuccessGivenValidName" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::1DC7F5A0-DDF7-4975-84EB-05F4FC1B6AB5::net9.0::SSZ.UnitTests.UseCases.Contributors.CreateContributorHandlerHandle.ReturnsSuccessGivenValidName&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryAdd&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryDelete&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0776DC14-9000-47A4-A3F4-ECBCF8CEBC17::net9.0::SSZ.IntegrationTests.Data.EfRepositoryUpdate&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorGetById&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D84EFEE-A7D9-44AD-A0A3-38EC7882D94C::net9.0::SSZ.FunctionalTests.ApiEndpoints.ContributorList&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

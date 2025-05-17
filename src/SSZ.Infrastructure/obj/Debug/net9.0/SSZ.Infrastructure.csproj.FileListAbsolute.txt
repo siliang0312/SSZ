@@ -1,19 +1,39 @@
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Infrastructure.deps.json
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Infrastructure.runtimeconfig.json
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Infrastructure.dll
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Infrastructure.pdb
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Core.dll
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.UseCases.dll
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.Core.pdb
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\bin\Debug\net9.0\SSZ.UseCases.pdb
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.csproj.AssemblyReference.cache
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.AssemblyInfoInputs.cache
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.AssemblyInfo.cs
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.csproj.CoreCompileInputs.cache
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infr.DF4DC8C2.Up2Date
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.dll
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\refint\SSZ.Infrastructure.dll
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.pdb
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\SSZ.Infrastructure.genruntimeconfig.cache
-E:\clean architecture\SSZ\src\SSZ.Infrastructure\obj\Debug\net9.0\ref\SSZ.Infrastructure.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.deps.json
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.runtimeconfig.json
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.pdb
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Core.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.UseCases.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Core.pdb
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.UseCases.pdb
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.csproj.AssemblyReference.cache
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.AssemblyInfoInputs.cache
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.AssemblyInfo.cs
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.csproj.CoreCompileInputs.cache
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infr.DF4DC8C2.Up2Date
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/refint/SSZ.Infrastructure.dll
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.pdb
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.genruntimeconfig.cache
+E:/clean architecture/SSZ/src/SSZ.Infrastructure/obj/Debug/net9.0/ref/SSZ.Infrastructure.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.deps.json
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.runtimeconfig.json
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Infrastructure.pdb
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Core.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.UseCases.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.Core.pdb
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/bin/Debug/net9.0/SSZ.UseCases.pdb
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.csproj.AssemblyReference.cache
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.AssemblyInfoInputs.cache
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.AssemblyInfo.cs
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.sourcelink.json
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infr.DF4DC8C2.Up2Date
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/refint/SSZ.Infrastructure.dll
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.pdb
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/SSZ.Infrastructure.genruntimeconfig.cache
+/Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/obj/Debug/net9.0/ref/SSZ.Infrastructure.dll

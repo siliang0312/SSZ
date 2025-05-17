@@ -1,0 +1,48 @@
+name: 运行测试
+
+on:
+  # 触发条件:手动触发
+  workflow_dispatch:
+  push:
+  pull_request:
+    branches: [ main ]
+    paths:
+    - '**.cs'
+    - '**.csproj'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 配置 .NET 环境
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+          
+      - name: 还原依赖
+        run: dotnet restore ./src/SSZ.Web/SSZ.Web.csproj
+        
+      - name: 构建项目
+        run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
+
+      - name: 运行测试并收集覆盖率
+        run: |
+          # 运行测试并生成覆盖率报告（默认格式为 cobertura）
+          dotnet test \
+            --no-restore \
+            --verbosity normal \
+            --collect:"Code Coverage" \
+            --results-directory ./TestResults \
+            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+
+      - name: 上传覆盖率报告
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: |
+            ./TestResults/​**​/coverage.cobertura.xml
+
+      
+        
+        
