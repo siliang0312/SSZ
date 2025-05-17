@@ -7,14 +7,29 @@
 *.DotSettings.user
 
 # 编译输出
-bin/
-obj/
-*/bin/
-*/obj/
-src/**/bin/
-src/**/obj/
-tests/**/bin/
-tests/**/obj/
+bin
+obj
+*/bin
+*/obj
+src/SSZ.Infrastructure/bin
+src/SSZ.Infrastructure/obj
+src/SSZ.Core/bin
+src/SSZ.Core/obj
+src/SSZ.Web/bin
+src/SSZ.Web/obj
+src/SSZ.UseCases/bin
+src/SSZ.UseCases/obj
+src/*/bin
+src/*/obj
+tests/*/bin
+tests/*/obj
+
+tests/SSZ.FunctionalTests/bin
+tests/SSZ.FunctionalTests/obj
+tests/SSZ.IntegrationTests/bin
+tests/SSZ.IntegrationTests/obj
+tests/SSZ.UnitTests/bin
+tests/SSZ.UnitTests/obj
 *.dll
 *.pdb
 *.exe

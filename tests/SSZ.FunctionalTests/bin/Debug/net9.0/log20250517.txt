@@ -1,0 +1,367 @@
+2025-05-17 18:57:31.317 +08:00 [INF] Registered 6 endpoints in 75 milliseconds.
+2025-05-17 18:57:32.195 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 18:57:32.370 +08:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 18:57:32.374 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SSZ.Infrastructure.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Equipments'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Equipments'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-17 18:57:32.375 +08:00 [ERR] An error occurred seeding the DB. SQLite Error 1: 'no such table: Equipments'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Equipments'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SSZ.Infrastructure.Data.SeedData.InitializeAsync(AppDbContext dbContext) in /Users/0312ssz/Documents/dddandevent/src/SSZ.Infrastructure/Data/SeedData.cs:line 16
+   at SSZ.Web.Configurations.MiddlewareConfig.SeedDatabase(WebApplication app) in /Users/0312ssz/Documents/dddandevent/src/SSZ.Web/Configurations/MiddlewareConfig.cs:line 41
+2025-05-17 18:57:32.389 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-05-17 18:57:32.413 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2025-05-17 18:57:32.414 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2025-05-17 18:57:32.414 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+2025-05-17 18:57:32.414 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+2025-05-17 18:57:32.455 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 18:57:32.458 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 18:57:32.472 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1000 - null null
+2025-05-17 18:57:32.484 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-05-17 18:57:32.485 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 18:57:32.510 +08:00 [INF] Handling GetContributorQuery
+2025-05-17 18:57:32.510 +08:00 [INF] Property ContributorId : 1000
+2025-05-17 18:57:32.563 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2025-05-17 18:57:32.564 +08:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 53 ms
+2025-05-17 18:57:32.565 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 18:57:32.567 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1000 - 404 null null 95.9496ms
+2025-05-17 18:57:32.579 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - null null
+2025-05-17 18:57:32.580 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 18:57:32.580 +08:00 [INF] Handling GetContributorQuery
+2025-05-17 18:57:32.580 +08:00 [INF] Property ContributorId : 1
+2025-05-17 18:57:32.582 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2025-05-17 18:57:32.582 +08:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 1 ms
+2025-05-17 18:57:32.582 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 18:57:32.582 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - 404 null null 2.5774ms
+2025-05-17 18:57:32.661 +08:00 [INF] Registered 6 endpoints in 10 milliseconds.
+2025-05-17 18:57:32.667 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 18:57:32.667 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 18:57:32.672 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 18:57:32.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 18:57:32.677 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors - null null
+2025-05-17 18:57:32.678 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-05-17 18:57:32.678 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2025-05-17 18:57:32.683 +08:00 [INF] Handling ListContributorsQuery
+2025-05-17 18:57:32.683 +08:00 [INF] Property Skip : null
+2025-05-17 18:57:32.683 +08:00 [INF] Property Take : null
+2025-05-17 18:57:32.694 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name,PhoneNumber_Number AS PhoneNumber FROM Contributors
+2025-05-17 18:57:32.695 +08:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[SSZ.UseCases.Contributors.ContributorDTO]] in 11 ms
+2025-05-17 18:57:32.699 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2025-05-17 18:57:32.699 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors - 200 null application/json; charset=utf-8 22.7891ms
+2025-05-17 19:57:49.147 +08:00 [INF] Registered 6 endpoints in 101 milliseconds.
+2025-05-17 19:57:49.479 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 19:57:49.658 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 19:57:49.673 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-05-17 19:57:49.699 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2025-05-17 19:57:49.699 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2025-05-17 19:57:49.699 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+2025-05-17 19:57:49.699 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+2025-05-17 19:57:49.742 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:57:49.743 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:57:49.757 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1000 - null null
+2025-05-17 19:57:49.769 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-05-17 19:57:49.770 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:57:49.794 +08:00 [INF] Handling GetContributorQuery
+2025-05-17 19:57:49.794 +08:00 [INF] Property ContributorId : 1000
+2025-05-17 19:57:49.856 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2025-05-17 19:57:49.857 +08:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 62 ms
+2025-05-17 19:57:49.858 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:57:49.860 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1000 - 404 null null 103.2556ms
+2025-05-17 19:57:49.866 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - null null
+2025-05-17 19:57:49.866 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:57:49.866 +08:00 [INF] Handling GetContributorQuery
+2025-05-17 19:57:49.867 +08:00 [INF] Property ContributorId : 1
+2025-05-17 19:57:49.868 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2025-05-17 19:57:49.868 +08:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 1 ms
+2025-05-17 19:57:49.868 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:57:49.868 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - 404 null null 2.3656ms
+2025-05-17 19:57:49.932 +08:00 [INF] Registered 6 endpoints in 8 milliseconds.
+2025-05-17 19:57:49.938 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 19:57:49.938 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 19:57:49.941 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-05-17 19:57:49.943 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2025-05-17 19:57:49.943 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2025-05-17 19:57:49.943 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+2025-05-17 19:57:49.943 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+2025-05-17 19:57:49.944 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:57:49.944 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:57:49.945 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors - null null
+2025-05-17 19:57:49.946 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-05-17 19:57:49.946 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2025-05-17 19:57:49.949 +08:00 [INF] Handling ListContributorsQuery
+2025-05-17 19:57:49.949 +08:00 [INF] Property Skip : null
+2025-05-17 19:57:49.949 +08:00 [INF] Property Take : null
+2025-05-17 19:57:49.958 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name,PhoneNumber_Number AS PhoneNumber FROM Contributors
+2025-05-17 19:57:49.959 +08:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[SSZ.UseCases.Contributors.ContributorDTO]] in 9 ms
+2025-05-17 19:57:49.962 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2025-05-17 19:57:49.962 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors - 200 null application/json; charset=utf-8 17.6867ms
+2025-05-17 19:58:06.950 +08:00 [INF] Registered 6 endpoints in 508 milliseconds.
+2025-05-17 19:58:07.615 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-05-17 19:58:07.890 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+2025-05-17 19:58:07.957 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-05-17 19:58:08.011 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2025-05-17 19:58:08.011 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2025-05-17 19:58:08.012 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+2025-05-17 19:58:08.012 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+2025-05-17 19:58:08.124 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:58:08.126 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-17 19:58:11.692 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - null null
+2025-05-17 19:58:11.716 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-05-17 19:58:11.718 +08:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:58:11.814 +08:00 [INF] Handling GetContributorQuery
+2025-05-17 19:58:11.814 +08:00 [INF] Property ContributorId : 1
+2025-05-17 19:58:11.899 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2025-05-17 19:58:11.901 +08:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 86 ms
+2025-05-17 19:58:11.904 +08:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2025-05-17 19:58:11.956 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - 404 null null 261.8392ms
