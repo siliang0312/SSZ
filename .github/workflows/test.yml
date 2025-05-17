@@ -27,7 +27,7 @@ jobs:
       - name: 构建项目
         run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
 
-       - name: 运行测试并收集覆盖率
+      - name: 运行测试并收集覆盖率
         run: |
           for proj in \
             ./tests/SSZ.UnitTests/SSZ.UnitTests.csproj \
