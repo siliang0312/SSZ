@@ -33,7 +33,7 @@ jobs:
             --no-restore \
             --verbosity normal \
             --collect:"Code Coverage" \
-            --results-directory ./TestResults \
+            --results-directory ./tests/TestResults \
             -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
 
       - name: 上传覆盖率报告
