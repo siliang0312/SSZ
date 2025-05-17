@@ -41,10 +41,10 @@ src/SSZ.Web/*.txt
 .DS_Store
 
 # 测试相关
-/tests/TestResults/*
-!/tests/TestResults/.gitkeep
-*.coverage
-*.trx
+# /tests/TestResults/*
+# !/tests/TestResults/.gitkeep
+# *.coverage
+# *.trx
 
 # 配置文件覆盖
 appsettings.Development.json
