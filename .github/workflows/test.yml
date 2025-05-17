@@ -30,15 +30,14 @@ jobs:
       - name: 运行测试并收集覆盖率
         run: |
           dotnet test \
+            ./SSZ.sln \
             --no-restore \
             --verbosity normal \
             --collect:"Code Coverage" \
             --results-directory ./tests/TestResults \
             --logger trx \
-            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura \
-            ./tests/SSZ.UnitTests/SSZ.UnitTests.csproj \
-            ./tests/SSZ.IntegrationTests/SSZ.IntegrationTests.csproj \
-            ./tests/SSZ.FunctionalTests/SSZ.FunctionalTests.csproj
+            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+      
 
       - name: 安装 ReportGenerator 工具
         run: dotnet tool install -g dotnet-reportgenerator-globaltool
