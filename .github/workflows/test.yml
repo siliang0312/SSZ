@@ -44,21 +44,21 @@ jobs:
       
       
 
-      - name: 安装 ReportGenerator 工具
-        run: dotnet tool install -g dotnet-reportgenerator-globaltool
+      # - name: 安装 ReportGenerator 工具
+      #   run: dotnet tool install -g dotnet-reportgenerator-globaltool
 
-      - name: 合并覆盖率报告
-        run: |
-          reportgenerator \
-            -reports:tests/TestResults/**/coverage.cobertura.xml \
-            -targetdir:tests/TestResults/merged-coverage \
-            -reporttypes:HtmlInline;Cobertura
+      # - name: 合并覆盖率报告
+      #   run: |
+      #     reportgenerator \
+      #       -reports:tests/TestResults/**/coverage.cobertura.xml \
+      #       -targetdir:tests/TestResults/merged-coverage \
+      #       -reporttypes:HtmlInline;Cobertura
 
-      - name: 上传测试结果
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results
-          path: |
-            tests/TestResults/**/*.trx
-            tests/TestResults/**/coverage.cobertura.xml
-            tests/TestResults/merged-coverage/**
+      # - name: 上传测试结果
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: test-results
+      #     path: |
+      #       tests/TestResults/**/*.trx
+      #       tests/TestResults/**/coverage.cobertura.xml
+      #       tests/TestResults/merged-coverage/**
