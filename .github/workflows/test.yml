@@ -27,16 +27,23 @@ jobs:
       - name: 构建项目
         run: dotnet build ./src/SSZ.Web/SSZ.Web.csproj --configuration Release --no-restore
 
-      - name: 运行测试并收集覆盖率
+       - name: 运行测试并收集覆盖率
         run: |
-          dotnet test \
-            ./SSZ.sln \
-            --no-restore \
-            --verbosity normal \
-            --collect:"Code Coverage" \
-            --results-directory ./tests/TestResults \
-            --logger trx \
-            -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+          for proj in \
+            ./tests/SSZ.UnitTests/SSZ.UnitTests.csproj \
+            ./tests/SSZ.IntegrationTests/SSZ.IntegrationTests.csproj \
+            ./tests/SSZ.FunctionalTests/SSZ.FunctionalTests.csproj
+          do
+            dotnet test \
+              --no-restore \
+              --verbosity normal \
+              --collect:"Code Coverage" \
+              --results-directory ./tests/TestResults \
+              --logger trx \
+              -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura \
+              $proj
+          done
+      
       
 
       - name: 安装 ReportGenerator 工具

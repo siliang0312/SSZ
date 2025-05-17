@@ -7,8 +7,14 @@
 *.DotSettings.user
 
 # 编译输出
-**/bin/
-**/obj/
+bin/
+obj/
+*/bin/
+*/obj/
+src/**/bin/
+src/**/obj/
+tests/**/bin/
+tests/**/obj/
 *.dll
 *.pdb
 *.exe
