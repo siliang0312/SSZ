@@ -9,11 +9,11 @@ public class MaintenanceRecord:EntityBase
   public string EquipmentName { get; private set; }
   public string EquipmentTypeName { get; private set; }
   public DateTime CreateTime{get; private set;}
-  public DateTime? CompleteTime{get; private set;}
+  public DateTime CompleteTime{get; private set;}
   public DateTime RequestDateTime{get; private set;}
   public string? Feedback{get; private set;}
   public string? AuditOpinion{get; private set;}
-  public MaintenanceRecord(string maintenanceItemName, string maintenanceItemContent, string duration, string filePath, string equipmentName, string equipmentTypeName, DateTime createTime, DateTime? completeTime, DateTime requestDateTime,string? feedback, string? auditOpinion)
+  public MaintenanceRecord(string maintenanceItemName, string maintenanceItemContent, string duration, string filePath, string equipmentName, string equipmentTypeName, DateTime createTime, DateTime completeTime, DateTime requestDateTime,string? feedback, string? auditOpinion)
   {
     MaintenanceItemName = Guard.Against.NullOrWhiteSpace(maintenanceItemName);
     MaintenanceItemContent = Guard.Against.NullOrWhiteSpace(maintenanceItemContent);
@@ -22,7 +22,7 @@ public class MaintenanceRecord:EntityBase
     EquipmentName = Guard.Against.NullOrWhiteSpace(equipmentName);
     EquipmentTypeName = Guard.Against.NullOrWhiteSpace(equipmentTypeName);
     CreateTime = Guard.Against.Default(createTime);
-    CompleteTime = completeTime;
+    CompleteTime = Guard.Against.Default(completeTime);
     RequestDateTime = Guard.Against.Default(requestDateTime);
     Feedback = feedback;
     AuditOpinion = auditOpinion;

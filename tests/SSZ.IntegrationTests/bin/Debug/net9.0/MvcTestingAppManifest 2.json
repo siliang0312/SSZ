@@ -1,6 +1,0 @@
-{
-  "SSZ.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.Core",
-  "SSZ.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.Infrastructure",
-  "SSZ.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\tests\\SSZ.UnitTests",
-  "SSZ.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\clean architecture\\SSZ\\src\\SSZ.UseCases"
-}
