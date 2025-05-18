@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="20161d58-e058-4900-a009-05117f9e0049" name="@0312deMac-mini 2025-05-18 14:06:29" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-18T14:06:29.4018620+08:00" queuing="2025-05-18T14:06:29.4018630+08:00" start="2025-05-18T14:06:28.3905340+08:00" finish="2025-05-18T14:06:29.4038190+08:00" />
+  <TestSettings name="default" id="6b456deb-f208-42bd-a1d4-dc1d73b86985">
+    <Deployment runDeploymentRoot="_0312deMac-mini_2025-05-18_14_06_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="32e0c98e-4378-44b3-b79b-2f04673872b2" testId="3c3142c6-cc83-48af-3d68-208c98f0f896" testName="SSZ.IntegrationTests.Data.EfRepositoryDelete.DeletesItemAfterAddingIt" computerName="0312deMac-mini" duration="00:00:00.0131612" startTime="2025-05-18T14:06:29.2223010+08:00" endTime="2025-05-18T14:06:29.2355450+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32e0c98e-4378-44b3-b79b-2f04673872b2" />
+    <UnitTestResult executionId="ae1fd37b-d935-405b-be05-4c6bd9735a29" testId="97b81823-b5f7-ae8b-b2dc-585eb7887289" testName="SSZ.IntegrationTests.Data.EfRepositoryUpdate.UpdatesItemAfterAddingIt" computerName="0312deMac-mini" duration="00:00:00.2773180" startTime="2025-05-18T14:06:28.8229160+08:00" endTime="2025-05-18T14:06:29.1040160+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae1fd37b-d935-405b-be05-4c6bd9735a29" />
+    <UnitTestResult executionId="57084f24-d59f-40e0-b090-4cff5306ef48" testId="fc03028e-6391-3490-f561-a2a32d007c91" testName="SSZ.IntegrationTests.Data.EfRepositoryAdd.AddsContributorAndSetsId" computerName="0312deMac-mini" duration="00:00:00.1139823" startTime="2025-05-18T14:06:29.1076350+08:00" endTime="2025-05-18T14:06:29.2217780+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57084f24-d59f-40e0-b090-4cff5306ef48" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SSZ.IntegrationTests.Data.EfRepositoryDelete.DeletesItemAfterAddingIt" storage="/users/0312ssz/documents/dddandevent/tests/ssz.integrationtests/bin/debug/net9.0/ssz.integrationtests.dll" id="3c3142c6-cc83-48af-3d68-208c98f0f896">
+      <Execution id="32e0c98e-4378-44b3-b79b-2f04673872b2" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.IntegrationTests/bin/Debug/net9.0/SSZ.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.IntegrationTests.Data.EfRepositoryDelete" name="DeletesItemAfterAddingIt" />
+    </UnitTest>
+    <UnitTest name="SSZ.IntegrationTests.Data.EfRepositoryAdd.AddsContributorAndSetsId" storage="/users/0312ssz/documents/dddandevent/tests/ssz.integrationtests/bin/debug/net9.0/ssz.integrationtests.dll" id="fc03028e-6391-3490-f561-a2a32d007c91">
+      <Execution id="57084f24-d59f-40e0-b090-4cff5306ef48" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.IntegrationTests/bin/Debug/net9.0/SSZ.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.IntegrationTests.Data.EfRepositoryAdd" name="AddsContributorAndSetsId" />
+    </UnitTest>
+    <UnitTest name="SSZ.IntegrationTests.Data.EfRepositoryUpdate.UpdatesItemAfterAddingIt" storage="/users/0312ssz/documents/dddandevent/tests/ssz.integrationtests/bin/debug/net9.0/ssz.integrationtests.dll" id="97b81823-b5f7-ae8b-b2dc-585eb7887289">
+      <Execution id="ae1fd37b-d935-405b-be05-4c6bd9735a29" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.IntegrationTests/bin/Debug/net9.0/SSZ.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.IntegrationTests.Data.EfRepositoryUpdate" name="UpdatesItemAfterAddingIt" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3c3142c6-cc83-48af-3d68-208c98f0f896" executionId="32e0c98e-4378-44b3-b79b-2f04673872b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97b81823-b5f7-ae8b-b2dc-585eb7887289" executionId="ae1fd37b-d935-405b-be05-4c6bd9735a29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc03028e-6391-3490-f561-a2a32d007c91" executionId="57084f24-d59f-40e0-b090-4cff5306ef48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.0-pre.49+a7f5dc0cba (64-bit .NET 9.0.0)
+[xUnit.net 00:00:00.03]   Discovering: SSZ.IntegrationTests
+[xUnit.net 00:00:00.04]   Discovered:  SSZ.IntegrationTests
+[xUnit.net 00:00:00.05]   Starting:    SSZ.IntegrationTests
+[xUnit.net 00:00:00.48]   Finished:    SSZ.IntegrationTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

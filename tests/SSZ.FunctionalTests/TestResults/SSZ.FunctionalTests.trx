@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1606d0f6-5e10-44c7-8361-9dfee7ac9d6f" name="@0312deMac-mini 2025-05-18 14:06:27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-18T14:06:27.0845080+08:00" queuing="2025-05-18T14:06:27.0845080+08:00" start="2025-05-18T14:06:25.4538090+08:00" finish="2025-05-18T14:06:27.0907540+08:00" />
+  <TestSettings name="default" id="6f8dc841-450a-483a-bd7e-6e9fbaa6ff0c">
+    <Deployment runDeploymentRoot="_0312deMac-mini_2025-05-18_14_06_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0c246b0b-81f8-487c-969c-dca99cca3d73" testId="01d6b411-7756-08e0-54a5-a2aa23b58ef2" testName="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsNotFoundGivenId1000" computerName="0312deMac-mini" duration="00:00:00.8848023" startTime="2025-05-18T14:06:25.8821450+08:00" endTime="2025-05-18T14:06:26.7710940+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c246b0b-81f8-487c-969c-dca99cca3d73" />
+    <UnitTestResult executionId="b38a555c-d216-4679-8d08-4768ffc121df" testId="f8d8d4c0-8fcf-e864-de7c-fa5fe03fe697" testName="SSZ.FunctionalTests.ApiEndpoints.ContributorList.ReturnsTwoContributors" computerName="0312deMac-mini" duration="00:00:00.1140040" startTime="2025-05-18T14:06:26.7836960+08:00" endTime="2025-05-18T14:06:26.9026240+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b38a555c-d216-4679-8d08-4768ffc121df">
+      <Output>
+        <ErrorInfo>
+          <Message>Shouldly.ShouldAssertException : result.Contributors.Count&#xD;
+    should be&#xD;
+2&#xD;
+    but was&#xD;
+0</Message>
+          <StackTrace>   at SSZ.FunctionalTests.ApiEndpoints.ContributorList.ReturnsTwoContributors() in /Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/ApiEndpoints/ContributorList.cs:line 16
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+--- End of stack trace from previous location ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76c94f7d-9066-4c8b-9d19-c4cbef723af4" testId="68827842-4748-51b2-e2a1-644efe1b0c95" testName="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1" computerName="0312deMac-mini" duration="00:00:00.0054263" startTime="2025-05-18T14:06:26.7746350+08:00" endTime="2025-05-18T14:06:26.7810560+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c94f7d-9066-4c8b-9d19-c4cbef723af4">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Net.Http.HttpRequestException : Response status code does not indicate success: 404 (Not Found).</Message>
+          <StackTrace>   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Ardalis.HttpClientTestExtensions.HttpClientGetExtensionMethods.GetAndDeserializeAsync[T](HttpClient client, String requestUri, ITestOutputHelper output)
+   at SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1() in /Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/ApiEndpoints/ContributorGetById.cs:line 15
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1" storage="/users/0312ssz/documents/dddandevent/tests/ssz.functionaltests/bin/debug/net9.0/ssz.functionaltests.dll" id="68827842-4748-51b2-e2a1-644efe1b0c95">
+      <Execution id="76c94f7d-9066-4c8b-9d19-c4cbef723af4" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/bin/Debug/net9.0/SSZ.FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById" name="ReturnsSeedContributorGivenId1" />
+    </UnitTest>
+    <UnitTest name="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsNotFoundGivenId1000" storage="/users/0312ssz/documents/dddandevent/tests/ssz.functionaltests/bin/debug/net9.0/ssz.functionaltests.dll" id="01d6b411-7756-08e0-54a5-a2aa23b58ef2">
+      <Execution id="0c246b0b-81f8-487c-969c-dca99cca3d73" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/bin/Debug/net9.0/SSZ.FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.FunctionalTests.ApiEndpoints.ContributorGetById" name="ReturnsNotFoundGivenId1000" />
+    </UnitTest>
+    <UnitTest name="SSZ.FunctionalTests.ApiEndpoints.ContributorList.ReturnsTwoContributors" storage="/users/0312ssz/documents/dddandevent/tests/ssz.functionaltests/bin/debug/net9.0/ssz.functionaltests.dll" id="f8d8d4c0-8fcf-e864-de7c-fa5fe03fe697">
+      <Execution id="b38a555c-d216-4679-8d08-4768ffc121df" />
+      <TestMethod codeBase="/Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/bin/Debug/net9.0/SSZ.FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SSZ.FunctionalTests.ApiEndpoints.ContributorList" name="ReturnsTwoContributors" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="01d6b411-7756-08e0-54a5-a2aa23b58ef2" executionId="0c246b0b-81f8-487c-969c-dca99cca3d73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8d8d4c0-8fcf-e864-de7c-fa5fe03fe697" executionId="b38a555c-d216-4679-8d08-4768ffc121df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68827842-4748-51b2-e2a1-644efe1b0c95" executionId="76c94f7d-9066-4c8b-9d19-c4cbef723af4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.0-pre.49+a7f5dc0cba (64-bit .NET 9.0.0)
+[xUnit.net 00:00:00.03]   Discovering: SSZ.FunctionalTests
+[xUnit.net 00:00:00.05]   Discovered:  SSZ.FunctionalTests
+[xUnit.net 00:00:00.06]   Starting:    SSZ.FunctionalTests
+[14:06:26 INF] Starting web host
+[14:06:26 INF] Options were configured
+[14:06:26 INF] Infrastructure services registered
+[14:06:26 INF] Mediatr and Email Sender services registered
+[14:06:26 INF] Registered 6 endpoints in 78 milliseconds.
+[14:06:26 INF] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[14:06:26 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+[14:06:26 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+[14:06:26 INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[14:06:26 INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1000 - null null
+[14:06:26 WRN] Failed to determine the https port for redirect.
+[14:06:26 INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+[14:06:26 INF] Handling GetContributorQuery
+[14:06:26 INF] Property ContributorId : 1000
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+[14:06:26 INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 46 ms
+[14:06:26 INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+[14:06:26 INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1000 - 404 null null 86.2115ms
+[14:06:26 INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - null null
+[14:06:26 INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+[14:06:26 INF] Handling GetContributorQuery
+[14:06:26 INF] Property ContributorId : 1
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+[14:06:26 INF] Handled GetContributorQuery with Ardalis.Result.Result`1[SSZ.UseCases.Contributors.ContributorDTO] in 1 ms
+[14:06:26 INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+[14:06:26 INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - 404 null null 2.3658ms
+[xUnit.net 00:00:00.96]       System.Net.Http.HttpRequestException : Response status code does not indicate success: 404 (Not Found).
+[xUnit.net 00:00:00.96]       Stack Trace:
+[xUnit.net 00:00:00.96]            at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+[xUnit.net 00:00:00.96]            at Ardalis.HttpClientTestExtensions.HttpClientGetExtensionMethods.GetAndDeserializeAsync[T](HttpClient client, String requestUri, ITestOutputHelper output)
+[xUnit.net 00:00:00.96]         /Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/ApiEndpoints/ContributorGetById.cs(15,0): at SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1()
+[xUnit.net 00:00:00.96]         --- End of stack trace from previous location ---
+[14:06:26 INF] Starting web host
+[14:06:26 INF] Options were configured
+[14:06:26 INF] Infrastructure services registered
+[14:06:26 INF] Mediatr and Email Sender services registered
+[14:06:26 INF] Registered 6 endpoints in 11 milliseconds.
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Equipments" AS "e")
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Equipments" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Equipments" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ProductionLineGuid" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ProductionLines" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ProductionLines" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Code" TEXT NOT NULL,
+    "ParentCode" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "EquipmentId" (
+    "ProductionLineId" TEXT NOT NULL,
+    "Id" INTEGER NOT NULL,
+    "Value" TEXT NOT NULL,
+    CONSTRAINT "PK_EquipmentId" PRIMARY KEY ("ProductionLineId", "Id"),
+    CONSTRAINT "FK_EquipmentId_ProductionLines_ProductionLineId" FOREIGN KEY ("ProductionLineId") REFERENCES "ProductionLines" ("Id") ON DELETE CASCADE
+);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 7), @p2='?' (Size = 5), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Equipments" ("Id", "Code", "Name", "ProductionLineGuid", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[14:06:26 INF] Request starting HTTP/1.1 GET http://localhost/Contributors - null null
+[14:06:26 WRN] Failed to determine the https port for redirect.
+[14:06:26 INF] Executing endpoint 'HTTP: GET /Contributors'
+[14:06:26 INF] Handling ListContributorsQuery
+[14:06:26 INF] Property Skip : null
+[14:06:26 INF] Property Take : null
+[14:06:26 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT Id, Name,PhoneNumber_Number AS PhoneNumber FROM Contributors
+[14:06:26 INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[SSZ.UseCases.Contributors.ContributorDTO]] in 12 ms
+[14:06:26 INF] Executed endpoint 'HTTP: GET /Contributors'
+[14:06:26 INF] Request finished HTTP/1.1 GET http://localhost/Contributors - 200 null application/json; charset=utf-8 26.2919ms
+[xUnit.net 00:00:01.08]       Shouldly.ShouldAssertException : result.Contributors.Count&#xD;
+[xUnit.net 00:00:01.09]           should be&#xD;
+[xUnit.net 00:00:01.09]       2&#xD;
+[xUnit.net 00:00:01.09]           but was&#xD;
+[xUnit.net 00:00:01.09]       0
+[xUnit.net 00:00:01.09]       Stack Trace:
+[xUnit.net 00:00:01.09]         /Users/0312ssz/Documents/dddandevent/tests/SSZ.FunctionalTests/ApiEndpoints/ContributorList.cs(16,0): at SSZ.FunctionalTests.ApiEndpoints.ContributorList.ReturnsTwoContributors()
+[xUnit.net 00:00:01.09]            at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+[xUnit.net 00:00:01.09]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.09]            at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+[xUnit.net 00:00:01.09]            at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+[xUnit.net 00:00:01.09]            at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+[xUnit.net 00:00:01.09]   Finished:    SSZ.FunctionalTests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="0312deMac-mini" outcome="Error" timestamp="2025-05-18T14:06:26.7824060+08:00">
+        <Text>[xUnit.net 00:00:00.96]     SSZ.FunctionalTests.ApiEndpoints.ContributorGetById.ReturnsSeedContributorGivenId1 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="0312deMac-mini" outcome="Error" timestamp="2025-05-18T14:06:26.9030460+08:00">
+        <Text>[xUnit.net 00:00:01.08]     SSZ.FunctionalTests.ApiEndpoints.ContributorList.ReturnsTwoContributors [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

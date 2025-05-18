@@ -24,6 +24,8 @@ tests/SSZ.IntegrationTests/bin
 tests/SSZ.IntegrationTests/obj
 tests/SSZ.UnitTests/bin
 tests/SSZ.UnitTests/obj
+test/bin
+test/obj
 *.dll
 *.pdb
 *.exe
