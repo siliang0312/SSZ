@@ -27,4 +27,8 @@
     <ProjectReference Include="..\SSZ.UseCases\SSZ.UseCases.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MaintenanceItems\" />
+  </ItemGroup>
+
 </Project>

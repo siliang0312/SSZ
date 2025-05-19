@@ -11,10 +11,8 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/SSZ.AspireHost/SSZ.AspireHost.csproj" />
     <Project Path="src/SSZ.Core/SSZ.Core.csproj" />
     <Project Path="src/SSZ.Infrastructure/SSZ.Infrastructure.csproj" />
-    <Project Path="src/SSZ.ServiceDefaults/SSZ.ServiceDefaults.csproj" />
     <Project Path="src/SSZ.UseCases/SSZ.UseCases.csproj" />
     <Project Path="src/SSZ.Web/SSZ.Web.csproj" />
   </Folder>

@@ -1,4 +1,5 @@
 ﻿using SSZ.Core.Aggregate.Equipment;
+using SSZ.Core.Aggregate.Maintenance;
 using SSZ.Core.Aggregate.ProductionLine;
 using SSZ.Core.ContributorAggregate;
 
@@ -11,6 +12,10 @@ public class AppDbContext(DbContextOptions<AppDbContext> options,
   public DbSet<Contributor> Contributors => Set<Contributor>();
   public DbSet<ProductionLine> ProductionLines => Set<ProductionLine>();
   public DbSet<Equipment> Equipments => Set<Equipment>();
+  public DbSet<MaintenanceItem> MaintenanceItems => Set<MaintenanceItem>();
+  public DbSet<MaintenancePlan> MaintenancePlans => Set<MaintenancePlan>();
+  public DbSet<MaintenanceTask> MaintenanceTasks => Set<MaintenanceTask>();
+  public DbSet<MaintenanceRecord> MaintenanceRecords => Set<MaintenanceRecord>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
