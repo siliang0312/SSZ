@@ -16,6 +16,8 @@ src/SSZ.Web/bin
 src/SSZ.Web/obj
 src/SSZ.UseCases/bin
 src/SSZ.UseCases/obj
+src/SSZ.Processor/bin
+src/SSZ.Processor/obj
 
 
 tests/SSZ.FunctionalTests/bin
