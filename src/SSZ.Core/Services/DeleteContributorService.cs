@@ -1,5 +1,5 @@
-﻿using SSZ.Core.ContributorAggregate;
-using SSZ.Core.ContributorAggregate.Events;
+﻿using SSZ.Core.Aggregate.Contributor.Events;
+using SSZ.Core.ContributorAggregate;
 using SSZ.Core.Interfaces;
 
 

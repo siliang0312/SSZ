@@ -1,4 +1,6 @@
-﻿namespace SSZ.Core.Aggregate.Maintenance;
+﻿using SSZ.Core.Aggregate.Maintenance.Events;
+
+namespace SSZ.Core.Aggregate.Maintenance;
 
 public class MaintenancePlan: EntityBase<Guid>, IAggregateRoot
 {
@@ -10,6 +12,8 @@ public class MaintenancePlan: EntityBase<Guid>, IAggregateRoot
   {
     EquipmentId = Guard.Against.Default(equipmentId);
     MaintenanceItemId = Guard.Against.Default(maintenanceItemId);
+    Id=Guid.NewGuid();
+    RegisterDomainEvent(new PlanCreatedEvent(Id));
   }
   public void UpdateLastDateTime()
   {

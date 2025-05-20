@@ -1,4 +1,4 @@
-﻿namespace SSZ.Core.ContributorAggregate.Events;
+﻿namespace SSZ.Core.Aggregate.Contributor.Events;
 
 /// <summary>
 /// A domain event that is dispatched whenever a contributor is deleted.

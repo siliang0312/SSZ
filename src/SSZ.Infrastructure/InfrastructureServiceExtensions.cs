@@ -2,6 +2,7 @@
 using SSZ.Core.Services;
 using SSZ.Infrastructure.Data;
 using SSZ.Infrastructure.Data.Queries;
+using SSZ.Infrastructure.Data.Repositories;
 using SSZ.UseCases.Contributors.List;
 
 
@@ -21,6 +22,7 @@ public static class InfrastructureServiceExtensions
     services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>))
            .AddScoped(typeof(IReadRepository<>), typeof(EfRepository<>))
            .AddScoped<IListContributorsQueryService, ListContributorsQueryService>()
+           .AddScoped<IMaintenanceRepository, MaintenanceRepository>()
            .AddScoped<IDeleteContributorService, DeleteContributorService>();
 
 

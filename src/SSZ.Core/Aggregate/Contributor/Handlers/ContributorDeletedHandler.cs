@@ -1,7 +1,7 @@
-﻿using SSZ.Core.ContributorAggregate.Events;
+﻿using SSZ.Core.Aggregate.Contributor.Events;
 using SSZ.Core.Interfaces;
 
-namespace SSZ.Core.ContributorAggregate.Handlers;
+namespace SSZ.Core.Aggregate.Contributor.Handlers;
 
 /// <summary>
 /// NOTE: Internal because ContributorDeleted is also marked as internal.

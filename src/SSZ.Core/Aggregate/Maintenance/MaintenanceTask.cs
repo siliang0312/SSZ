@@ -1,4 +1,6 @@
-﻿namespace SSZ.Core.Aggregate.Maintenance;
+﻿using SSZ.Core.Aggregate.Maintenance.Exceptions;
+
+namespace SSZ.Core.Aggregate.Maintenance;
 
 public class MaintenanceTask: EntityBase<Guid>, IAggregateRoot
 {
@@ -24,6 +26,7 @@ public class MaintenanceTask: EntityBase<Guid>, IAggregateRoot
   }
   public void MarkSubmitted(Guid imageId, int duration)
   {
+    if (State != TaskState.Waiting) throw new MaintenanceException("只有被等待的任务才能被提交");
     ImageId = Guard.Against.Default(imageId);
     Duration = Guard.Against.NegativeOrZero(duration);
     State = TaskState.Submitted;
@@ -31,6 +34,7 @@ public class MaintenanceTask: EntityBase<Guid>, IAggregateRoot
 
   public void MarkConfirmed()
   {
+    if (State != TaskState.Submitted) throw new MaintenanceException("只有已经提交的任务才能被确认");
     State = TaskState.Confirmed;
     CompleteTime = DateTime.UtcNow;
     
@@ -38,6 +42,7 @@ public class MaintenanceTask: EntityBase<Guid>, IAggregateRoot
 
   public void Reject(string reason)
   {
+    if (State != TaskState.Submitted) throw new MaintenanceException("只有已经提交的任务才能被驳回");
     State = TaskState.Waiting;
     AuditOpinion = reason;
   }
