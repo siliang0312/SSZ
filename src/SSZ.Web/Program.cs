@@ -23,7 +23,7 @@ builder.Services.AddFastEndpoints()
                   o.ShortSchemaNames = true;
                 });
 
-
+builder.AddProcessorConfigs();
 var app = builder.Build();
 
 await app.UseAppMiddlewareAndSeedDatabase();

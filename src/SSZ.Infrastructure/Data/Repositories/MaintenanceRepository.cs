@@ -24,11 +24,12 @@ public class MaintenanceRepository(AppDbContext context,ILogger<MaintenanceRepos
     {
       // 设置用于匹配的字段（联合唯一键）
       UpdateByProperties = ["EquipmentId", "MaintenanceItemId"],
-
+    
       // 可选配置（提高性能）
       PreserveInsertOrder = true,
       SetOutputIdentity = true
     };
+    //TODO:由于此处采用了BulkExtensions, 不使用ChangeTracker，导致领域事件失效待解决
      await context.BulkInsertOrUpdateAsync(plans, bulkConfig);
   }
 }

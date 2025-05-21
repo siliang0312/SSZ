@@ -1,4 +1,6 @@
 ﻿using SSZ.Infrastructure.Data;
+using SSZ.Infrastructure.Data.Queries;
+using SSZ.UseCases.Contributors.List;
 
 namespace SSZ.FunctionalTests;
 
@@ -61,7 +63,6 @@ public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProg
         .ConfigureServices(services =>
         {
           // Configure test dependencies here
-
           //// Remove the app's ApplicationDbContext registration.
           //var descriptor = services.SingleOrDefault(
           //d => d.ServiceType ==

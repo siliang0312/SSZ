@@ -12,16 +12,16 @@ public static class SeedData
 
   public static async Task InitializeAsync(AppDbContext dbContext)
   {
-    // if (await dbContext.Contributors.AnyAsync()) return; // DB has been seeded
-    if (await dbContext.Equipments.AnyAsync()) return; // DB has been seeded
+    if (await dbContext.Contributors.AnyAsync()) return; // DB has been seeded
+    // if (await dbContext.Equipments.AnyAsync()) return; // DB has been seeded
 
     await PopulateTestDataAsync(dbContext);
   }
 
   public static async Task PopulateTestDataAsync(AppDbContext dbContext)
   {
-    // dbContext.Contributors.AddRange([Contributor1, Contributor2]);
-    dbContext.Equipments.AddRange([Equipment1, Equipment2]);
+    dbContext.Contributors.AddRange([Contributor1, Contributor2]);
+    // dbContext.Equipments.AddRange([Equipment1, Equipment2]);
     await dbContext.SaveChangesAsync();
   }
 }
