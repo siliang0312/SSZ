@@ -43,9 +43,7 @@ steps:
     failTaskOnFailedTests: true
 
 # 上传代码覆盖率报告
-- task: PublishCodeCoverageResults@1
+- task: PublishCodeCoverageResults@2
   inputs:
-    codeCoverageTool: 'Cobertura'  # Azure DevOps 支持 Cobertura 格式
     summaryFileLocation: '$(Agent.TempDirectory)/**/coverage.cobertura.xml'
-    reportDirectory: '$(Agent.TempDirectory)'
 
