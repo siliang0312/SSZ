@@ -11,7 +11,8 @@ public class MaintenanceCycle(MaintenanceCycleType cycleType, int intervalTime):
   {
     DayOfPeriod = Guard.Against.NegativeOrZero(dayOfPeriod);
   }
-  public DateTime GetNextDate(DateTime startDate)
+  
+  public virtual DateTime GetNextDate(DateTime startDate)
   {
 
     if (CycleType == MaintenanceCycleType.Day)

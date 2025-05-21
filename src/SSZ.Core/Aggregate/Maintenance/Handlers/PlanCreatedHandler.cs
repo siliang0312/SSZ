@@ -2,7 +2,7 @@
 
 namespace SSZ.Core.Aggregate.Maintenance.Handlers;
 
-internal class PlanCreatedHandler(ILogger<PlanCreatedHandler> logger
+public class PlanCreatedHandler(ILogger<PlanCreatedHandler> logger
   ,IRepository<MaintenancePlan> repository,IRepository<MaintenanceItem> itemRepository) : INotificationHandler<PlanCreatedEvent>
 {
   public async Task Handle(PlanCreatedEvent domainEvent, CancellationToken cancellationToken)
