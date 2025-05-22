@@ -34,6 +34,7 @@ steps:
     configuration: '$(buildConfiguration)'
     codeCoverageEnabled: true   # ✅ 启用测试覆盖率
     testRunTitle: '单元测试覆盖率'
+    runSettingsFile: 'coverage.runsettings'
 # 上传测试结果
 - task: PublishTestResults@2
   inputs:
