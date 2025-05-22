@@ -1,7 +1,7 @@
 ﻿using SSZ.Core.Aggregate.Maintenance.Events;
 
 namespace SSZ.Core.Aggregate.Maintenance.Handlers;
-
+[Obsolete("弃用该领域事件")]
 public class PlanCreatedHandler(ILogger<PlanCreatedHandler> logger
   ,IRepository<MaintenancePlan> repository,IRepository<MaintenanceItem> itemRepository) : INotificationHandler<PlanCreatedEvent>
 {
