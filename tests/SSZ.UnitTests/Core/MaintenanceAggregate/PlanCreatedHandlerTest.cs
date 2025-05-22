@@ -35,7 +35,7 @@ public class PlanCreatedHandlerTests
     planRepo.GetByIdAsync(domainEvent.PlanId, Arg.Any<CancellationToken>())
       .Returns(fakePlan);
 
-    itemRepo.GetByIdAsync(fakePlan.EquipmentId, Arg.Any<CancellationToken>())
+    itemRepo.GetByIdAsync(fakePlan.MaintenanceItemId, Arg.Any<CancellationToken>())
       .Returns(fakeItem);
 
     var handler = new PlanCreatedHandler(logger, planRepo, itemRepo);
