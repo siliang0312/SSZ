@@ -4,21 +4,18 @@
     <DataCollectors>
       <DataCollector friendlyName="XPlat code coverage">
         <Configuration>
-          <Format>cobertura</Format>
-          <Include>
-            <ModulePath>.*\\src\\.*</ModulePath>
-          </Include>
-          <Exclude>
-            <!-- 🚫 排除测试代码 -->
-            <ModulePath>.*\\tests\\.*</ModulePath>
-            <!-- 🚫 排除系统和第三方库 -->
-            <ModulePath>.*FluentValidation.*</ModulePath>
-            <ModulePath>.*Shouldly.*</ModulePath>
-            <ModulePath>.*xunit.*</ModulePath>
-            <ModulePath>.*Microsoft.*</ModulePath>
-            <ModulePath>.*System.*</ModulePath>
-            <ModulePath>.*Newtonsoft.*</ModulePath>
-          </Exclude>
+         <CodeCoverage>
+            <ModulePaths>
+              <Exclude>
+                <!-- 🚫 排除测试代码 -->
+                <ModulePath>.*Tests.dll</ModulePath>
+                <!-- 🚫 排除系统和第三方库 -->
+                <ModulePath>.*FluentValidation.dll</ModulePath>
+                <ModulePath>.*Shouldly.dll</ModulePath>
+                <ModulePath>.*diffengine.dll</ModulePath>
+              </Exclude>
+            </ModulePaths>
+         </CodeCoverage>
         </Configuration>
       </DataCollector>
     </DataCollectors>
