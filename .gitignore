@@ -44,11 +44,11 @@ src/SSZ.Web/*.txt
 *.swp
 .DS_Store
 
-# 测试相关
-# /tests/TestResults/*
-# !/tests/TestResults/.gitkeep
-# *.coverage
-# *.trx
+测试相关
+/tests/TestResults/*
+!/tests/TestResults/.gitkeep
+*.coverage
+*.trx
 
 # 配置文件覆盖
 appsettings.Development.json
