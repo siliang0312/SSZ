@@ -1,4 +1,5 @@
-﻿using SSZ.Core.Aggregate.Maintenance.Exceptions;
+﻿using SSZ.Core.Aggregate.Maintenance.Events;
+using SSZ.Core.Aggregate.Maintenance.Exceptions;
 
 namespace SSZ.Core.Aggregate.Maintenance;
 
@@ -23,11 +24,14 @@ public class MaintenanceTask: EntityBase<Guid>, IAggregateRoot
     RequestDateTime = Guard.Against.Default(requestDateTime);
     CreateTime = Guard.Against.Default(createTime);
     State  = TaskState.Waiting;
+    var taskCreatedEvent = new TaskCreatedEvent(maintenancePlanId, Id);
+    RegisterDomainEvent(taskCreatedEvent);
   }
-  public void MarkSubmitted(Guid imageId, int duration)
+  public void MarkSubmitted(Guid imageId, int duration,  string feedback)
   {
     if (State != TaskState.Waiting) throw new MaintenanceException("只有被等待的任务才能被提交");
     ImageId = Guard.Against.Default(imageId);
+    Feedback= Guard.Against.NullOrWhiteSpace(feedback);
     Duration = Guard.Against.NegativeOrZero(duration);
     State = TaskState.Submitted;
   }

@@ -8,6 +8,7 @@ public static class ProcessorConfigs
   {
 
     builder.Services.AddHostedService<GenerateMaintenancePlanJob>();
+    builder.Services.AddHostedService<GenerateMaintenanceTaskJob>();
 
     return builder;
   }

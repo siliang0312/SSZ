@@ -13,7 +13,7 @@ public class MaintenancePlan: EntityBase<Guid>, IAggregateRoot
     EquipmentId = Guard.Against.Default(equipmentId);
     MaintenanceItemId = Guard.Against.Default(maintenanceItemId);
     Id=Guid.NewGuid();
-    RegisterDomainEvent(new PlanCreatedEvent(Id));
+    // RegisterDomainEvent(new PlanCreatedEvent(Id));
   }
   public void UpdateLastDateTime()
   {
@@ -22,5 +22,10 @@ public class MaintenancePlan: EntityBase<Guid>, IAggregateRoot
   public void UpdateNextDateTime(DateTime nextDateTime)
   {
     NextDateTime = nextDateTime;
+  }
+
+  public void ClearNextDateTime()
+  {
+    NextDateTime  = DateTime.MaxValue;
   }
 }

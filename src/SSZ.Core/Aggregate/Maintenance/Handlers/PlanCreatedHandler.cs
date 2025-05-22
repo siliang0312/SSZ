@@ -10,7 +10,7 @@ public class PlanCreatedHandler(ILogger<PlanCreatedHandler> logger
     logger.LogInformation("Handling MaintenancePlan Created event for {planId}", domainEvent.PlanId);
     
     var plan=await repository.GetByIdAsync(domainEvent.PlanId, cancellationToken);
-    var item=await itemRepository.GetByIdAsync(plan!.EquipmentId, cancellationToken);
+    var item=await itemRepository.GetByIdAsync(plan!.MaintenanceItemId, cancellationToken);
     
    var nextDate= item!.MaintenanceCycle!.GetNextDate(DateTime.UtcNow).Date;
    plan.UpdateNextDateTime(nextDate);
