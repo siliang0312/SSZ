@@ -11,7 +11,7 @@ public class TaskCreatedHandlerTest
   public async Task Handle_ShouldSaveSuccess(
     [Frozen] IRepository<MaintenancePlan> planRepository,
     ILogger<TaskCreatedHandler> logger,
-    // [Frozen] IRepository<MaintenanceTask> taskRepository,
+    // [Frozen] IRepository<MaintenanceTasks> taskRepository,
     IEnumerable<MaintenancePlan> plans,
     TaskCreatedEvent domainEvent,
     MaintenancePlan fakePlan

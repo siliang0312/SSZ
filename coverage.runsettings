@@ -13,6 +13,7 @@
                 <ModulePath>.*FluentValidation.dll</ModulePath>
                 <ModulePath>.*Shouldly.dll</ModulePath>
                 <ModulePath>.*diffengine.dll</ModulePath>
+                <ModulePath>.*ssz.infrastructure.dll</ModulePath>
               </Exclude>
             </ModulePaths>
          </CodeCoverage>

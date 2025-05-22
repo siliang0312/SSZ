@@ -165,7 +165,7 @@ namespace SSZ.Infrastructure.Data.Migrations
                     b.ToTable("MaintenanceRecords");
                 });
 
-            modelBuilder.Entity("SSZ.Core.Aggregate.Maintenance.MaintenanceTask", b =>
+            modelBuilder.Entity("SSZ.Core.Aggregate.Maintenance.MaintenanceTasks", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
