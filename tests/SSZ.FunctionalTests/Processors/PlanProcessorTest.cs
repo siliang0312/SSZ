@@ -2,7 +2,7 @@
 using SSZ.UseCases.MaintenancePlans;
 
 namespace SSZ.FunctionalTests.Processors;
-
+[Collection("Sequential")]
 public class PlanProcessorTest(CustomWebApplicationFactory<Program> factory): IClassFixture<CustomWebApplicationFactory<Program>>
 {
   [Fact]

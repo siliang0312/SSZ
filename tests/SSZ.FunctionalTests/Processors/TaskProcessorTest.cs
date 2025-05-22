@@ -3,7 +3,7 @@ using SSZ.UseCases.MaintenancePlans;
 using SSZ.UseCases.MaintenanceTasks;
 
 namespace SSZ.FunctionalTests.Processors;
-
+[Collection("Sequential")]
 public class TaskProcessorTest(CustomWebApplicationFactory<Program> factory): IClassFixture<CustomWebApplicationFactory<Program>>
 {
   [Fact]
