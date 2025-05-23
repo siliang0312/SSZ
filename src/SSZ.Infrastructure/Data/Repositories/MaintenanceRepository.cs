@@ -29,7 +29,7 @@ public class MaintenanceRepository(AppDbContext context,ILogger<MaintenanceRepos
       PreserveInsertOrder = true,
       SetOutputIdentity = true
     };
-    //TODO:由于此处采用了BulkExtensions, 不使用ChangeTracker，导致领域事件失效待解决
+    //TODO:由于此处采用了BulkExtensions, 不使用ChangeTracker，导致领域事件失效,所以取消了领域事件
      await context.BulkInsertOrUpdateAsync(plans, bulkConfig);
   }
 }

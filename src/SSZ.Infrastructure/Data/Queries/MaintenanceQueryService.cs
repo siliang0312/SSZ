@@ -1,4 +1,5 @@
-﻿using SSZ.UseCases.MaintenanceTasks;
+﻿using SSZ.Core.Aggregate.Maintenance;
+using SSZ.UseCases.MaintenanceTasks;
 
 namespace SSZ.Infrastructure.Data.Queries;
 
@@ -6,13 +7,14 @@ public class MaintenanceQueryService(AppDbContext context):IMaintenanceQueryServ
 {
   public async Task<IEnumerable<MaintenanceTaskDto>> GetTaskByEquipCode(string equipmentCode, int state)
   {
+    var realState = TaskState.FromValue(state);
     var result = from t in context.MaintenanceTasks
       join e in context.Equipments
         on t.EquipmentId equals e.Id
       join i in context.MaintenanceItems
         on t.MaintenanceItemId equals i.Id into item
       from i in item.DefaultIfEmpty()
-      where e.Code == equipmentCode && t.State==state
+      where e.Code == equipmentCode && t.State==realState
       select new MaintenanceTaskDto
       {
         TaskId=t.Id,
