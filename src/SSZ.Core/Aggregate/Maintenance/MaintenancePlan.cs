@@ -17,7 +17,7 @@ public class MaintenancePlan: EntityBase<Guid>, IAggregateRoot
   }
   public void UpdateLastDateTime()
   {
-    LastDateTime = DateTime.UtcNow;
+    LastDateTime = DateTime.UtcNow.Date;
   }
   public void UpdateNextDateTime(DateTime nextDateTime)
   {
