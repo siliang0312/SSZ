@@ -14,7 +14,7 @@ public class GetByEquipCode(IMediator mediator): Endpoint<GetByEquipCodeRequest,
       s.Summary  = "根据设备编码获取设备下的任务";
       s.RequestParam(x=>x.EquipmentCode,"设备编码");
       s.RequestParam(x=>x.State,"任务状态");
-      s.ExampleRequest = new GetByEquipCodeRequest { EquipmentCode = "ATQ001",State = TaskState.Waiting};
+      s.ExampleRequest = new GetByEquipCodeRequest { EquipmentCode = "ATQ001",State = TaskState.Waiting.Value};
     });
   }
   public override async Task HandleAsync(
