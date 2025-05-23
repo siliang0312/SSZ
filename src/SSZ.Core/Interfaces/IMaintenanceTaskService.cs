@@ -1,6 +1,8 @@
-﻿namespace SSZ.Core.Interfaces;
+﻿using SSZ.Core.Aggregate.Maintenance;
+
+namespace SSZ.Core.Interfaces;
 
 public interface IMaintenanceTaskService
 {
-  Task ConfirmTask(List<Guid> planIds,List<Guid> taskIds);
+  Task ConfirmTask(List<MaintenanceTask> tasks);
 }

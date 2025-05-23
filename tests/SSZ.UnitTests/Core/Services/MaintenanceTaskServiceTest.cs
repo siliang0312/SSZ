@@ -12,7 +12,7 @@ public class MaintenanceTaskServiceTest
     IMediator mediator,
     IRepository<MaintenancePlan> planRepo,
     IEnumerable<MaintenancePlan> plans,
-    IEnumerable<Guid> taskIds
+    IEnumerable<MaintenanceTask> tasks
     )
   {
     var maintenancePlans = plans as MaintenancePlan[] ?? plans.ToArray();
@@ -20,7 +20,7 @@ public class MaintenanceTaskServiceTest
       .Returns(maintenancePlans.ToList());
     var planIds=  maintenancePlans.Select(x=>x.Id).ToList();
     var service = new MaintenanceTaskService(mediator,planRepo);
-    await service.ConfirmTask(planIds,taskIds.ToList());
+    await service.ConfirmTask(tasks.ToList());
   await  planRepo.Received().ListAsync(Arg.Any<ISpecification<MaintenancePlan>>(), Arg.Any<CancellationToken>());
    await planRepo.Received().SaveChangesAsync();
    

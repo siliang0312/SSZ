@@ -1,6 +1,6 @@
 ﻿namespace SSZ.Core.Aggregate.Maintenance.Events;
 
-public class TaskConfirmedEvent(IEnumerable<Guid> taskIds):DomainEventBase
+public class TaskConfirmedEvent(IEnumerable<MaintenanceTask> tasks):DomainEventBase
 {
-  public IEnumerable<Guid> TaskIds { get; set; } = taskIds;
+  public IEnumerable<MaintenanceTask> Tasks { get; set; } = tasks;
 }
