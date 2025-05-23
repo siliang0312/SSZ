@@ -2,10 +2,11 @@
 
 namespace SSZ.UseCases.MaintenanceTasks;
 
-public class GetByEquipCodeHandler(IRepository<MaintenanceTask> taskRepo,IRepository<MaintenanceItem>itemRepo):  IQueryHandler<GetByEquipCodeQuery, IEnumerable<MaintenanceTaskDto>>
+public class GetByEquipCodeHandler(IMaintenanceQueryService queryService):  IQueryHandler<GetByEquipCodeQuery, Result<IEnumerable<MaintenanceTaskDto>>>
 {
-  public Task<IEnumerable<MaintenanceTaskDto>> Handle(GetByEquipCodeQuery request, CancellationToken cancellationToken)
+  public async Task<Result<IEnumerable<MaintenanceTaskDto>>> Handle(GetByEquipCodeQuery request, CancellationToken cancellationToken)
   {
-    throw new NotImplementedException();
+    var result=await  queryService.GetTaskByEquipCode(request.EquipmentCode, request.State);
+    return Result.Success(result);
   }
 }

@@ -1,4 +1,5 @@
 ﻿using SSZ.Core.Aggregate.Maintenance;
+using SSZ.UseCases.MaintenanceTasks;
 
 namespace SSZ.Web.MaintenanceTasks;
 
@@ -20,18 +21,15 @@ public class GetByEquipCode(IMediator mediator): Endpoint<GetByEquipCodeRequest,
     GetByEquipCodeRequest request,
     CancellationToken cancellationToken)
   {
-    var state = TaskState.FromValue(request.State);
+    var result = await mediator.Send(new GetByEquipCodeQuery(request.EquipmentCode,
+      request.State), cancellationToken);
     
-    var response = new GetByEquipCodeResponse();
-    response.Tasks = [];
-    Response = response;
-    // var result = await mediator.Send(new CreateContributorCommand(request.Name!,
-    //   request.PhoneNumber), cancellationToken);
-    //
-    // if (result.IsSuccess)
-    // {
-    //   // Response = new CreateContributorResponse(result.Value, request.Name!);
-    //   return;
-    // }
+    if (result.IsSuccess)
+    {
+      Response = new GetByEquipCodeResponse()
+      {
+        Tasks =  result.Value.Select(a=>new TaskRecord(a.TaskId,a.ItemId,a.ItemContent,a.ItemName,a.Duration,a.Feedback,a.ImageId)).ToList()
+      };
+    }
   }
 }
