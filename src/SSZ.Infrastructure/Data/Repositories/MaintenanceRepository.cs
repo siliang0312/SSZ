@@ -1,22 +1,14 @@
 ﻿using EFCore.BulkExtensions;
 using SSZ.Core.Aggregate.Maintenance;
-using SSZ.Core.Aggregate.Maintenance.Dtos;
+using SSZ.Core.Interfaces;
 using SSZ.UseCases.MaintenancePlans;
+using SSZ.UseCases.MaintenanceTasks;
 
 namespace SSZ.Infrastructure.Data.Repositories;
 
 public class MaintenanceRepository(AppDbContext context,ILogger<MaintenanceRepository> logger):IMaintenanceRepository
 {
-  public async Task<IEnumerable<EquipAndItemDto>> GetEquipAndItemAsync()
-  {
-    logger.LogInformation("获取设备及维护项Guid");
 
-    var res =from equip in context.Equipments.AsNoTracking()
-      join item in context.MaintenanceItems.AsNoTracking() 
-        on equip.EquipmentTypeId equals item.EquipmentTypeId
-      select new EquipAndItemDto(equip.Id,item.Id);
-     return await  res.ToListAsync();
-  }
 
   public async Task InsertPlans(List<MaintenancePlan> plans)
   {

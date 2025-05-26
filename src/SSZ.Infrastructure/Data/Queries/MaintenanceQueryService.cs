@@ -1,4 +1,5 @@
 ﻿using SSZ.Core.Aggregate.Maintenance;
+using SSZ.UseCases;
 using SSZ.UseCases.MaintenanceTasks;
 
 namespace SSZ.Infrastructure.Data.Queries;
@@ -25,5 +26,14 @@ public class MaintenanceQueryService(AppDbContext context):IMaintenanceQueryServ
         Feedback=t.Feedback,
       };
     return await result.ToListAsync();
+  }
+  public async Task<IEnumerable<EquipAndItemDto>> GetEquipAndItemAsync()
+  {
+
+    var res =from equip in context.Equipments.AsNoTracking()
+      join item in context.MaintenanceItems.AsNoTracking() 
+        on equip.EquipmentTypeId equals item.EquipmentTypeId
+      select new EquipAndItemDto(equip.Id,item.Id);
+    return await  res.ToListAsync();
   }
 }

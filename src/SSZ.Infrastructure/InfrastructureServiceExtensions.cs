@@ -3,6 +3,7 @@ using SSZ.Core.Services;
 using SSZ.Infrastructure.Data;
 using SSZ.Infrastructure.Data.Queries;
 using SSZ.Infrastructure.Data.Repositories;
+using SSZ.UseCases;
 using SSZ.UseCases.Contributors.List;
 using SSZ.UseCases.MaintenanceTasks;
 

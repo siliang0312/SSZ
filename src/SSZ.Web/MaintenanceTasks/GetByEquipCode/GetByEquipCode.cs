@@ -28,7 +28,7 @@ public class GetByEquipCode(IMediator mediator): Endpoint<GetByEquipCodeRequest,
     {
       Response = new GetByEquipCodeResponse()
       {
-        Tasks =  result.Value.Select(a=>new TaskRecord(a.TaskId,a.ItemId,a.ItemContent,a.ItemName,a.Duration,a.Feedback,a.ImageId)).ToList()
+        Tasks =  result.Value.Select(a=>new TaskRecord(a.TaskId,a.ItemId,a.ItemContent??string.Empty,a.ItemName??string.Empty,a.Duration,a.Feedback,a.ImageId)).ToList()
       };
     }
   }

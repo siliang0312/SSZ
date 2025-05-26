@@ -15,7 +15,7 @@ public class ListContributorsQueryService(AppDbContext _db) : IListContributorsQ
     //     $"SELECT Id, Name,PhoneNumber_Number AS PhoneNumber FROM Contributors") // don't fetch other big columns
     //   .ToListAsync();
     var result =await _db.Contributors
-      .Select(a => new ContributorDTO(a.Id,a.Name,a.PhoneNumber.Number))
+      .Select(a => new ContributorDTO(a.Id,a.Name,a.PhoneNumber!.Number))
       .ToListAsync();
     return result;
   }

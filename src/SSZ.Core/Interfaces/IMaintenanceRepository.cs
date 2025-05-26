@@ -1,10 +1,8 @@
 ﻿using SSZ.Core.Aggregate.Maintenance;
-using SSZ.Core.Aggregate.Maintenance.Dtos;
 
-namespace SSZ.Infrastructure.Data.Repositories;
+namespace SSZ.Core.Interfaces;
 
 public interface IMaintenanceRepository
 {
-  Task<IEnumerable<EquipAndItemDto>> GetEquipAndItemAsync();
   Task InsertPlans(List<MaintenancePlan> plans);
 }

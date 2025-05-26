@@ -13,6 +13,6 @@ public class GetByEquipCodeRequest
       .Replace("{EquipmentCode}", equipmentCode)
       .Replace("{State}", state.ToString());
 
-  public string EquipmentCode { get; set; } 
+  public string EquipmentCode { get; set; } = string.Empty;
   public int State { get; set; }
 }
