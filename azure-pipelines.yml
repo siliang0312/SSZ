@@ -35,13 +35,13 @@ steps:
     codeCoverageEnabled: true   # ✅ 启用测试覆盖率
     testRunTitle: '单元测试覆盖率'
     runSettingsFile: 'coverage.runsettings'
-# 上传测试结果
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '**/*.trx'
-    searchFolder: '$(Agent.TempDirectory)'
-    failTaskOnFailedTests: true
+# # 上传测试结果
+# - task: PublishTestResults@2
+#   inputs:
+#     testResultsFormat: 'VSTest'
+#     testResultsFiles: '**/*.trx'
+#     searchFolder: '$(Agent.TempDirectory)'
+#     failTaskOnFailedTests: true
 
 # 上传代码覆盖率报告
 - task: PublishCodeCoverageResults@2
