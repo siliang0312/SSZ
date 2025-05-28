@@ -76,4 +76,4 @@ dotnet run --project src/SSZ.Web
 dotnet test
 ```
 🧑‍💻 作者
-> 本项目由 @Think0312 构建，如有任何建议或问题欢迎提交 issue 或 PR！
+> 本项目由 @SSZ0312(siliang) 构建，如有任何建议或问题欢迎提交 issue 或 PR！
