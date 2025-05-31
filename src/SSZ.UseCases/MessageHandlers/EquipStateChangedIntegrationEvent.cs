@@ -1,3 +1,5 @@
+using SSZ.Core.Aggregate.Equipment;
+
 namespace SSZ.UseCases.MessageHandlers;
 
-public record EquipStateChangedIntegrationEvent(string EquipId, string State);
+public record EquipStateChangedIntegrationEvent(Guid EquipId, EquipmentStatus State);
