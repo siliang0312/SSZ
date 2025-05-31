@@ -12,6 +12,7 @@
                 <!-- 🚫 排除系统和第三方库 -->
                 <ModulePath>.*FluentValidation.dll</ModulePath>
                 <ModulePath>.*Shouldly.dll</ModulePath>
+                <ModulePath>.*masstransit*.dll</ModulePath>
                 <ModulePath>.*diffengine.dll</ModulePath>
                 <ModulePath>.*ssz.infrastructure.dll</ModulePath>
               </Exclude>
