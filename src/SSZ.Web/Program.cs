@@ -22,7 +22,7 @@ builder.Services.AddFastEndpoints()
                 {
                   o.ShortSchemaNames = true;
                 });
-
+builder.Services.AddMessageConfigs(builder.Configuration);
 builder.AddProcessorConfigs();
 var app = builder.Build();
 
